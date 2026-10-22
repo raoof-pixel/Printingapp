@@ -46,7 +46,8 @@
     }
     function draw() {
       const o = selected(); if (!svg || !o) return;
-      const w = Number(o.dataset.w) || 24, h = Number(o.dataset.h) || 18;
+      if (!o.dataset.w || !o.dataset.h) { svg.innerHTML = '<text x="200" y="195" text-anchor="middle" font-size="15" font-weight="700" fill="#0c2340">Made to your artwork size</text><text x="200" y="218" text-anchor="middle" font-size="12" fill="#5b6475">Tell us the finished size in the order notes</text>'; return; }
+      const w = Number(o.dataset.w), h = Number(o.dataset.h);
       const sheetW = 96, sheetH = 48;
       const maxW = Math.max(sheetW, w), maxH = Math.max(sheetH, h);
       const pad = 28, box = 400 - pad * 2;
