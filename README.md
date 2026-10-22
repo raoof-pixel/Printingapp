@@ -1,4 +1,4 @@
-# BoldPrint — retail print store
+# B2Bprint.ca — retail print store
 
 A complete web store for large-format printing: rigid boards (coroplast, PVC, aluminum composite, foam board, styrene, clear PETG), adhesive vinyl and window graphics, banners, and election signs. 30 products, 279 stock sizes, every one priced.
 
@@ -21,7 +21,7 @@ cp .env.example .env     # fill in SESSION_SECRET (32+ random bytes) and BASE_UR
 NODE_ENV=production node --env-file=.env server.js
 ```
 
-Or with Docker: `docker build -t boldprint . && docker run -p 3000:3000 --env-file .env -v boldprint-data:/app/data -v boldprint-uploads:/app/uploads boldprint`
+Or with Docker: `docker build -t b2bprint . && docker run -p 3000:3000 --env-file .env -v b2bprint-data:/app/data -v b2bprint-uploads:/app/uploads b2bprint`
 
 Put it behind HTTPS (Caddy, nginx, or your host's load balancer) and set `TRUST_PROXY=true` so rate limiting sees real client IPs.
 

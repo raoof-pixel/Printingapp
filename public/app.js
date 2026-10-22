@@ -1,4 +1,4 @@
-/* BoldPrint front-end. Cart lives in localStorage; every price shown from the cart page onward comes from the server. */
+/* B2Bprint.ca front-end. Cart lives in localStorage; every price shown from the cart page onward comes from the server. */
 (() => {
   'use strict';
   const $ = (s, r = document) => r.querySelector(s);
@@ -8,7 +8,7 @@
   const escapeHtml = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
   /* ---------- Cart store ---------- */
-  const KEY = 'bp_cart_v1';
+  const KEY = 'b2b_cart_v1';
   const cart = {
     read() { try { const v = JSON.parse(localStorage.getItem(KEY) || '[]'); return Array.isArray(v) ? v : []; } catch { return []; } },
     write(items) { try { localStorage.setItem(KEY, JSON.stringify(items)); } catch {} cart.badge(); },
@@ -58,10 +58,10 @@
       svg.innerHTML = `
         <rect x="${sx}" y="${sy}" width="${sheetW * scale}" height="${sheetH * scale}" fill="none" stroke="#141b2d" stroke-opacity="0.35" stroke-dasharray="4 4"/>
         <text x="${sx + 6}" y="${sy - 6}" font-size="11" fill="#5b6475">4 × 8 ft sheet</text>
-        <rect class="sign" x="${x}" y="${y}" width="${w * scale}" height="${h * scale}" fill="#1e4fd8" fill-opacity="0.92" stroke="#fff" stroke-width="2"/>
+        <rect class="sign" x="${x}" y="${y}" width="${w * scale}" height="${h * scale}" fill="#0c2340" fill-opacity="0.92" stroke="#fff" stroke-width="2"/>
         <text x="${x + (w * scale) / 2}" y="${y + (h * scale) / 2 + 5}" text-anchor="middle" font-size="${Math.max(10, Math.min(16, w * scale / 8))}" font-weight="700" fill="#fff">${w * scale > 70 ? label : ''}</text>
-        <line x1="${x}" y1="${y + h * scale + 12}" x2="${x + w * scale}" y2="${y + h * scale + 12}" stroke="#d81b7a" stroke-width="1.5"/>
-        <text x="${x + (w * scale) / 2}" y="${y + h * scale + 26}" text-anchor="middle" font-size="12" fill="#d81b7a" font-weight="700">${label}</text>`;
+        <line x1="${x}" y1="${y + h * scale + 12}" x2="${x + w * scale}" y2="${y + h * scale + 12}" stroke="#f25c05" stroke-width="1.5"/>
+        <text x="${x + (w * scale) / 2}" y="${y + h * scale + 26}" text-anchor="middle" font-size="12" fill="#f25c05" font-weight="700">${label}</text>`;
     }
     function update() {
       const u = unitPrice(); const q = Math.max(1, Math.min(5000, parseInt(qty.value, 10) || 1));

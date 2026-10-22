@@ -3,6 +3,7 @@ const config = require('./config');
 const catalog = require('./catalog');
 const { esc } = require('./security');
 
+const LOGO = '<svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="13" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="16" cy="16" r="5" fill="#f25c05"/><path d="M16 0v8M16 24v8M0 16h8M24 16h8" stroke="currentColor" stroke-width="3"/></svg>';
 const money = (n) => `$${Number(n).toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
 const sizeLabel = (v) => (v.size ? `${fmtNum(v.size[0])} × ${fmtNum(v.size[1])} in` : v.label);
 const fmtNum = (n) => (Number.isInteger(n) ? String(n) : String(n).replace(/\.?0+$/, ''));
@@ -26,7 +27,7 @@ function layout(ctx, { title, body, bodyClass = '', description = '' }) {
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-head">
   <div class="wrap head-row">
-    <a class="brand" href="/"><span class="brand-mark" aria-hidden="true"></span>${esc(config.brand.name)}</a>
+    <a class="brand" href="/" aria-label="${esc(config.brand.name)} home">${LOGO}<span class="wordmark"><b>B2B</b>print<small>.ca</small></span></a>
     <form class="search" action="/search" method="get" role="search">
       <input type="search" name="q" placeholder="Search materials, e.g. coroplast 24x36" aria-label="Search" maxlength="80" value="${esc(ctx.query?.q || '')}">
       <button type="submit" aria-label="Search">Search</button>
@@ -43,14 +44,14 @@ function layout(ctx, { title, body, bodyClass = '', description = '' }) {
   <div class="wrap foot-grid">
     <div>
       <p class="foot-brand">${esc(config.brand.name)}</p>
-      <p>${esc(config.brand.tagline)}</p>
+      <p>${esc(config.brand.tagline)} ${esc(config.brand.descriptor)}</p>
       <p><a href="mailto:${esc(config.brand.email)}">${esc(config.brand.email)}</a><br><a href="tel:${esc(config.brand.phoneTel)}">${esc(config.brand.phone)}</a><br>${esc(config.brand.address)}</p>
     </div>
     <div><p class="foot-h">Materials</p>${catalog.CATEGORIES.map((c) => `<a href="/c/${c.slug}">${esc(c.title)}</a>`).join('')}</div>
     <div><p class="foot-h">Ordering</p><a href="/help">Help and artwork specs</a><a href="/delivery">Delivery and pickup</a><a href="/account">Your orders</a><a href="/contact">Contact</a></div>
     <div><p class="foot-h">Company</p><a href="/about">About</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a></div>
   </div>
-  <div class="wrap foot-base"><span>© ${new Date().getFullYear()} ${esc(config.brand.name)}. Prices in CAD, HST added at checkout.</span><span class="pay-marks" aria-label="Accepted payments">Visa · Mastercard · Amex · Interac</span></div>
+  <div class="wrap foot-base"><span>© ${new Date().getFullYear()} ${esc(config.brand.name)} · Prices in CAD, HST added at checkout.</span><span class="pay-marks" aria-label="Accepted payments">Visa · Mastercard · Amex · Interac</span></div>
 </footer>
 <script src="/app.js" nonce="${esc(nonce)}" defer></script>
 </body>
@@ -86,8 +87,8 @@ function home(ctx) {
   const body = `
 <section class="hero">
   <div class="hero-copy">
-    <h1>Order signs and banners the way a sign shop does.<br>Pick the board, pick the size, upload the art.</h1>
-    <p>Every price on the site is the real price for one printed piece, before HST. Choose from 282 stock sizes across coroplast, PVC, aluminum, foam, styrene, vinyl and banner material. Printed in Mississauga and shipped across Ontario, or pick up free.</p>
+    <h1>Wholesale-grade signs and banners. No minimums.</h1>
+    <p>The same boards, vinyl and banner stock the trade buys, priced per piece so a business can order one or one hundred. 279 stock sizes, every one priced before you log in. Printed in Mississauga, shipped across Ontario, or picked up free.</p>
     <div class="hero-actions"><a class="btn" href="/c/rigid-boards">Browse rigid boards</a><a class="btn btn-ghost" href="/help#artwork">Artwork specs</a></div>
   </div>
   <div class="hero-swatches" aria-hidden="true">
@@ -100,11 +101,11 @@ function home(ctx) {
   </div>
 </section>
 <section class="section">
-  <div class="section-head"><h2>Materials</h2><p>Four families, 30 products, every stock size priced.</p></div>
+  <div class="section-head"><h2>Materials</h2><p>Four families, 30 products, 279 sizes.</p></div>
   <div class="tiles tiles-4">${cats}</div>
 </section>
 <section class="section">
-  <div class="section-head"><h2>Most ordered</h2><p>What small businesses, realtors and event teams come back for.</p></div>
+  <div class="section-head"><h2>Most ordered</h2><p>What contractors, realtors, retailers and event teams reorder.</p></div>
   <div class="tiles tiles-3">${popular}</div>
 </section>
 <section class="section how">

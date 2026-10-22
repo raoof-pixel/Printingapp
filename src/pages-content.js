@@ -22,8 +22,8 @@ module.exports = {
 <p>You need an account to check out so you can track orders and reorder. Passwords must be 10+ characters. Six wrong passwords lock the account for 15 minutes.</p>`,
 
   about: `
-<p class="lede">BoldPrint is a retail storefront for large-format printing: rigid boards, vinyl and banners, printed in Mississauga and shipped across Ontario.</p>
-<p>We run the same stock sizes and finishing options a trade printer runs, priced for small businesses, realtors, schools, campaigns and event teams who order a handful at a time rather than a pallet. No minimums. Free pickup.</p>
+<p class="lede">B2Bprint.ca is a retail storefront for large-format printing: rigid boards, vinyl and banners, printed in Mississauga and shipped across Ontario.</p>
+<p>The name is the promise: business-to-business print, bought the way a business buys. We run the same stock sizes and finishing options a trade printer runs, priced for small businesses, realtors, schools, campaigns and event teams who order a handful at a time rather than a pallet. No minimums. Free pickup.</p>
 <p>What we care about: the file you upload is the sign you get. Every product page draws your size to scale, lists its lead time and prices its add-ons up front, so the number you see in the cart is the number on the invoice.</p>`,
 
   delivery: `

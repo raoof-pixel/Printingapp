@@ -113,8 +113,8 @@ function serveStatic(req, res, urlPath) {
 /* ---------- Orders ---------- */
 function nextOrderNumber() {
   const year = new Date().getFullYear();
-  const count = db.filter('orders', (o) => o.number.startsWith(`BP-${year}-`)).length + 1;
-  return `BP-${year}-${String(count).padStart(4, '0')}`;
+  const count = db.filter('orders', (o) => o.number.startsWith(`B2B-${year}-`)).length + 1;
+  return `B2B-${year}-${String(count).padStart(4, '0')}`;
 }
 function parseCart(raw) {
   let items;

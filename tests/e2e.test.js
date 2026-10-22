@@ -175,7 +175,7 @@ async function test(name, fn) { try { await fn(); passed++; console.log('  ✓',
   });
   await test('tampered cart (fake price, wrong option) is rejected by the pricing API', async () => {
     const r = await page.evaluate(async () => {
-      const items = JSON.parse(localStorage.getItem('bp_cart_v1'));
+      const items = JSON.parse(localStorage.getItem('b2b_cart_v1'));
       const res = await fetch('/api/cart/price', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ csrf: document.querySelector('meta[name=csrf-token]').content, items: [{ ...items[0], unit: 0.01, options: { 'Add Grommets': 'Free diamonds' } }] }) });
       return res.json();
     });
@@ -263,7 +263,7 @@ async function test(name, fn) { try { await fn(); passed++; console.log('  ✓',
     await page.waitForSelector('#totals .grand');
     await page.check('input[name=terms]');
     await page.click('#place-order');
-    await page.waitForSelector('h1:has-text("Pay for order BP-")');
+    await page.waitForSelector('h1:has-text("Pay for order B2B-")');
     assert.ok(await page.locator('text=Card payments are not switched on yet').count());
     assert.strictEqual(await page.locator('#cart-count').innerText(), '0', 'cart cleared after order');
     await shot('07-pay');

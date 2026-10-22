@@ -1,7 +1,7 @@
 {
-  "name": "boldprint",
+  "name": "b2bprint",
   "version": "1.0.0",
-  "description": "BoldPrint — retail web store for large-format signs, banners and rigid substrates. Zero runtime dependencies.",
+  "description": "B2Bprint.ca — retail web store for large-format signs, banners and rigid substrates. Zero runtime dependencies.",
   "private": true,
   "type": "commonjs",
   "engines": { "node": ">=20" },
