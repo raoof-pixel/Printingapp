@@ -27,7 +27,7 @@ module.exports = {
 <p>What we care about: the file you upload is the sign you get. Every product page draws your size to scale, lists its lead time and prices its add-ons up front, so the number you see in the cart is the number on the invoice.</p>`,
 
   delivery: `
-<h2>Pickup</h2><p>Free from our Mississauga location, Monday to Friday 8:30 to 5:00. We email you when the order is ready. Bring your order number.</p>
+<h2>Pickup</h2><p>Free from 6345 Dixie Rd, Unit 202, Mississauga (near Dixie and Derry), Monday to Friday 8:30 to 5:00. We email you when the order is ready. Bring your order number.</p>
 <h2>Courier</h2><p>Rigid boards and banners ship by courier across Ontario. Because board sizes vary from 6 in to 10 ft, courier is quoted on the invoice by weight and dimensions after we pack the order, and charged before dispatch. Typical GTA deliveries arrive the next business day after production.</p>
 <h2>Your own carrier</h2><p>Add your account number and carrier in the order notes and we will arrange pickup with an electronic waybill.</p>
 <h2>Damage</h2><p>Check the package on arrival. Report damage within 2 business days with photos and we reprint.</p>`,

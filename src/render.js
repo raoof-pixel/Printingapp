@@ -45,7 +45,7 @@ function layout(ctx, { title, body, bodyClass = '', description = '' }) {
     <div>
       <p class="foot-brand">${esc(config.brand.name)}</p>
       <p>${esc(config.brand.tagline)} ${esc(config.brand.descriptor)}</p>
-      <p><a href="mailto:${esc(config.brand.email)}">${esc(config.brand.email)}</a><br><a href="tel:${esc(config.brand.phoneTel)}">${esc(config.brand.phone)}</a><br>${esc(config.brand.address)}</p>
+      <p><a href="mailto:${esc(config.brand.email)}">${esc(config.brand.email)}</a><br><a href="tel:${esc(config.brand.phoneTel)}">${esc(config.brand.phone)}</a> · <a href="tel:${esc(config.brand.phone2Tel)}">${esc(config.brand.phone2)}</a><br>${esc(config.brand.address)}<br>${esc(config.brand.city)}</p>
     </div>
     <div><p class="foot-h">Materials</p>${catalog.CATEGORIES.map((c) => `<a href="/c/${c.slug}">${esc(c.title)}</a>`).join('')}</div>
     <div><p class="foot-h">Ordering</p><a href="/help">Help and artwork specs</a><a href="/delivery">Delivery and pickup</a><a href="/account">Your orders</a><a href="/contact">Contact</a></div>
@@ -279,7 +279,7 @@ ${flash(ctx)}
   <section class="co-summary"><h2>Items</h2><ul class="lines">${lines}</ul>
   <dl class="totals"><dt>Subtotal</dt><dd>${money(order.subtotal)}</dd><dt>HST</dt><dd>${money(order.tax)}</dd><dt class="grand">Total</dt><dd class="grand">${money(order.total)}</dd></dl>
   ${order.status === 'awaiting_payment' ? `<a class="btn" href="/pay/${esc(order.id)}">Pay now</a>` : ''}</section>
-  <section class="co-summary"><h2>Delivery</h2><p>${order.shipMethod === 'pickup' ? 'Pickup in Mississauga. We email you when it is ready.' : `Courier to:<br>${esc(order.ship.address1)}${order.ship.address2 ? '<br>' + esc(order.ship.address2) : ''}<br>${esc(order.ship.city)}, ${esc(order.ship.region)} ${esc(order.ship.postal)}`}</p>
+  <section class="co-summary"><h2>Delivery</h2><p>${order.shipMethod === 'pickup' ? `Pickup at ${esc(config.brand.address)}, ${esc(config.brand.city)}. We email you when it is ready.` : `Courier to:<br>${esc(order.ship.address1)}${order.ship.address2 ? '<br>' + esc(order.ship.address2) : ''}<br>${esc(order.ship.city)}, ${esc(order.ship.region)} ${esc(order.ship.postal)}`}</p>
   <h2>Contact</h2><p>${esc(order.contact.name)}${order.contact.company ? ' · ' + esc(order.contact.company) : ''}<br>${esc(order.contact.email)}<br>${esc(order.contact.phone)}</p>${order.po ? `<p>PO: ${esc(order.po)}</p>` : ''}${order.notes ? `<h2>Notes</h2><p>${esc(order.notes)}</p>` : ''}</section>
 </div>`;
   return layout(ctx, { title: `Order ${order.number}`, body });
@@ -332,7 +332,7 @@ function contact(ctx, { about = '', sent = false, errors = {}, values = {} } = {
 <div class="contact-grid">
 <article class="prose"><h1>${fam ? `Quote: ${esc(fam.title)}` : 'Contact'}</h1>
 <p>${fam ? `${esc(fam.title)} is quoted per order. Tell us sizes, quantity, colours and when you need it, and we reply with a price the same business day.` : 'Questions about a material, a file, or an order in progress. We answer the same business day.'}</p>
-<p><a href="mailto:${esc(config.brand.email)}">${esc(config.brand.email)}</a><br><a href="tel:${esc(config.brand.phoneTel)}">${esc(config.brand.phone)}</a><br>Mon to Fri, 8:30 to 5:00 ET<br>${esc(config.brand.address)}</p></article>
+<p><a href="mailto:${esc(config.brand.email)}">${esc(config.brand.email)}</a><br><a href="tel:${esc(config.brand.phoneTel)}">${esc(config.brand.phone)}</a> or <a href="tel:${esc(config.brand.phone2Tel)}">${esc(config.brand.phone2)}</a><br>Mon to Fri, 8:30 to 5:00 ET<br>${esc(config.brand.address)}<br>${esc(config.brand.city)}</p></article>
 ${sent ? `<div class="flash flash-ok">Sent. We reply by email, usually within a few hours on business days.</div>` : `
 <form class="auth" method="post" action="/contact" novalidate>
   <input type="hidden" name="csrf" value="${esc(ctx.csrf)}">
