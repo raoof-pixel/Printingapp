@@ -1,0 +1,9 @@
+node_modules/
+uploads/
+data/users.json
+data/orders.json
+data/uploads.json
+data/messages.json
+data/*.tmp
+.env
+tests/screenshots/

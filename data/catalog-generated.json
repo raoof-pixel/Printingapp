@@ -1,0 +1,4352 @@
+{
+ "markup": 1.3,
+ "currency": "CAD",
+ "families": [
+  {
+   "slug": "alupanel-3mm",
+   "name": "3mm Alupanel (aluminum composite)",
+   "category": "RIGID",
+   "subcategory": "ALUPANEL",
+   "variants": [
+    {
+     "id": "2b1e7535-cb38-4bb1-88a0-8c23e3e006e0",
+     "label": "3mm Alupanel 12x12\"",
+     "size": [
+      12,
+      12
+     ],
+     "price": 75.22,
+     "quote": false
+    },
+    {
+     "id": "46e8d9ef-df56-471f-9ce3-ce5e872179ac",
+     "label": "3mm Alupanel 12 x24\"",
+     "size": [
+      12,
+      24
+     ],
+     "price": 79.51,
+     "quote": false
+    },
+    {
+     "id": "df3dcedc-5f6e-45e2-851b-40703d6cd3ac",
+     "label": "3mm Alupanel 15.75x23.75\"",
+     "size": [
+      15.75,
+      23.75
+     ],
+     "price": 85.67,
+     "quote": false
+    },
+    {
+     "id": "a2a31b7f-2ecd-42a6-b88c-53d13823fae2",
+     "label": "3mm Alupanel 17.75x23.75\"",
+     "size": [
+      17.75,
+      23.75
+     ],
+     "price": 41.6,
+     "quote": false
+    },
+    {
+     "id": "a417a81c-1ca2-4daa-a41b-2b69d827ef03",
+     "label": "3mm Alupanel 23.75x31.75\"",
+     "size": [
+      23.75,
+      31.75
+     ],
+     "price": 115.1,
+     "quote": false
+    },
+    {
+     "id": "254f62ce-0943-4ced-9260-1b5b318f1814",
+     "label": "3mm Alupanel 23.75x35.75\"",
+     "size": [
+      23.75,
+      35.75
+     ],
+     "price": 96.01,
+     "quote": false
+    },
+    {
+     "id": "5637f970-778e-425a-b3d3-9d7a6e1811bf",
+     "label": "3mm Alupanel 23.75x47.75\"",
+     "size": [
+      23.75,
+      47.75
+     ],
+     "price": 97.31,
+     "quote": false
+    },
+    {
+     "id": "bd3ac20c-6b3e-472a-8885-91b13f330f21",
+     "label": "3mm Alupanel 35.75x35.75\"",
+     "size": [
+      35.75,
+      35.75
+     ],
+     "price": 128.84,
+     "quote": false
+    },
+    {
+     "id": "61acbfbc-e42a-4f7a-a641-af86a4b9722c",
+     "label": "3mm Alupanel 31.75x47.75\"",
+     "size": [
+      31.75,
+      47.75
+     ],
+     "price": 115.1,
+     "quote": false
+    },
+    {
+     "id": "8ede3532-b974-44d4-af7c-ead4ce3feb78",
+     "label": "3mm Alupanel 35.75x47.75\"",
+     "size": [
+      35.75,
+      47.75
+     ],
+     "price": 132.09,
+     "quote": false
+    },
+    {
+     "id": "98f97524-3c9e-4557-82c2-195cc2c5dadf",
+     "label": "3mm Alupanel 47.75x47.75\"",
+     "size": [
+      47.75,
+      47.75
+     ],
+     "price": 153.28,
+     "quote": false
+    },
+    {
+     "id": "618ca8f8-27ba-452e-95d3-6ebb2f16e6d2",
+     "label": "3mm Alupanel 71.75x47.75\"",
+     "size": [
+      71.75,
+      47.75
+     ],
+     "price": 203.55,
+     "quote": false
+    },
+    {
+     "id": "8b7570cb-2336-4609-87cc-e3d234ff4f3c",
+     "label": "3mm Alupanel 96x48\"",
+     "size": [
+      96,
+      48
+     ],
+     "price": 246.35,
+     "quote": false
+    },
+    {
+     "id": "78337746-1bf6-4370-a66c-77938f3392bc",
+     "label": "3mm Alupanel 120\"X58\"",
+     "size": [
+      120,
+      58
+     ],
+     "price": 404.82,
+     "quote": false
+    }
+   ],
+   "options": [
+    {
+     "label": "Single or Double Sided",
+     "choices": [
+      "One Sided"
+     ]
+    },
+    {
+     "label": "Production Time is 4 to 5 Business Days-Select Rush Options Below",
+     "choices": [
+      "ACP Two Day Rush (up to 20 pieces) Call to Confirm"
+     ]
+    },
+    {
+     "label": "Cut to Shape",
+     "choices": [
+      "Simple Contour Cut 3mmACP -Circles Heart Ovals",
+      "Complex Contour Cut to Shape 3m ACP"
+     ]
+    },
+    {
+     "label": "Drill Holes",
+     "choices": [
+      "1 Hole Drilled ACP",
+      "2 Holes Drilled ACP",
+      "3 Holes Drilled ACP",
+      "4 Holes Drilled ACP",
+      "5 Holes Drilled ACP",
+      "6 Holes Drilled ACP"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "coroplast-4mm",
+   "name": "4mm Coroplast",
+   "category": "RIGID",
+   "subcategory": "COROPLAST",
+   "variants": [
+    {
+     "id": "e20d7754-4888-465d-8a50-dc5866ae5d74",
+     "label": "12hx12w Coroplast 4mm",
+     "size": [
+      12,
+      12
+     ],
+     "price": 19.5,
+     "quote": false
+    },
+    {
+     "id": "97347b72-ae76-4958-ba04-40e6b1bd502c",
+     "label": "12x16\" Coroplast 4mm",
+     "size": [
+      12,
+      16
+     ],
+     "price": 19.5,
+     "quote": false
+    },
+    {
+     "id": "22fb2aa0-ab2d-4f52-a0fe-35d4503d6a23",
+     "label": "12x16\" Coroplast 4mm new",
+     "size": [
+      12,
+      16
+     ],
+     "price": 19.5,
+     "quote": false
+    },
+    {
+     "id": "1d07ed2c-01ae-42ea-8963-48f4fc02f725",
+     "label": "12\"hx18w Coroplast 4mm Flutes Horizontal",
+     "size": [
+      12,
+      18
+     ],
+     "price": 19.5,
+     "quote": false
+    },
+    {
+     "id": "9e71ff8b-5f4e-46cb-9c18-15077a9ad0cb",
+     "label": "16x16 Coroplast 4mm",
+     "size": [
+      16,
+      16
+     ],
+     "price": 19.5,
+     "quote": false
+    },
+    {
+     "id": "11ed3c17-7ef9-4b31-8faa-c9447925ee4a",
+     "label": "12x24 Coroplast 4mm",
+     "size": [
+      12,
+      24
+     ],
+     "price": 19.5,
+     "quote": false
+    },
+    {
+     "id": "de20d74b-51e5-4aa3-a63a-d0bf8bc2b420",
+     "label": "16x24 Coroplast 4mm",
+     "size": [
+      16,
+      24
+     ],
+     "price": 19.5,
+     "quote": false
+    },
+    {
+     "id": "16b4424d-3c10-4939-b32b-5c77e64aa47d",
+     "label": "18hx24w Coroplast 4mm FLUTES VERTICAL",
+     "size": [
+      18,
+      24
+     ],
+     "price": 19.5,
+     "quote": false
+    },
+    {
+     "id": "513c638d-376f-4e48-9137-0d41b61c23c0",
+     "label": "24x24 Coroplast 4mm",
+     "size": [
+      24,
+      24
+     ],
+     "price": 20.8,
+     "quote": false
+    },
+    {
+     "id": "196fce04-7b28-4252-a6c9-7ba99b1e0a88",
+     "label": "24hx32w Coroplast 4mm-Flutes Horizontal",
+     "size": [
+      24,
+      32
+     ],
+     "price": 22.1,
+     "quote": false
+    },
+    {
+     "id": "e3b7d6e1-357f-47a4-9f35-dba707381606",
+     "label": "24hx36w Coroplast 4mm -Flutes Assorted",
+     "size": [
+      24,
+      36
+     ],
+     "price": 22.87,
+     "quote": false
+    },
+    {
+     "id": "768e5f1f-11d7-415e-867a-172f4f4e3aa2",
+     "label": "24x48 Coroplast 4mm",
+     "size": [
+      24,
+      48
+     ],
+     "price": 25.48,
+     "quote": false
+    },
+    {
+     "id": "1fd1a862-4829-4c10-8009-a0c8f916950c",
+     "label": "32x48 Coroplast 4mm",
+     "size": [
+      32,
+      48
+     ],
+     "price": 24.99,
+     "quote": false
+    },
+    {
+     "id": "86e4894f-b6b7-4a9a-a3b5-4e075e65f84c",
+     "label": "36x48 Coroplast 4mm",
+     "size": [
+      36,
+      48
+     ],
+     "price": 35.15,
+     "quote": false
+    },
+    {
+     "id": "6eef03f3-84c0-4d4c-b7c3-9f49ff10a637",
+     "label": "48x48 Coroplast 4mm",
+     "size": [
+      48,
+      48
+     ],
+     "price": 37.93,
+     "quote": false
+    },
+    {
+     "id": "024f0565-ec34-43a0-973d-5d5d925013fc",
+     "label": "36x72 Coroplast 4mm",
+     "size": [
+      36,
+      72
+     ],
+     "price": 58.73,
+     "quote": false
+    },
+    {
+     "id": "544860b8-770e-4bdd-8990-4deab3ed5c10",
+     "label": "48x60 Coroplast 4mm",
+     "size": [
+      48,
+      60
+     ],
+     "price": 49.97,
+     "quote": false
+    },
+    {
+     "id": "a8e55619-1611-40b0-87ec-ceda2db0f19b",
+     "label": "36x96 Coroplast 4mm",
+     "size": [
+      36,
+      96
+     ],
+     "price": 73.31,
+     "quote": false
+    },
+    {
+     "id": "e4681775-b925-4d02-b316-d5f0adea714c",
+     "label": "48x72 Coroplast 4mm",
+     "size": [
+      48,
+      72
+     ],
+     "price": 60.09,
+     "quote": false
+    },
+    {
+     "id": "36066953-33ac-48f5-a184-7a5aedd7d569",
+     "label": "48x96 Coroplast 4mm",
+     "size": [
+      48,
+      96
+     ],
+     "price": 65.72,
+     "quote": false
+    },
+    {
+     "id": "57c4a0f5-e2a0-4483-adbd-63f16901501e",
+     "label": "48\"x120\" Coroplast 4mm",
+     "size": [
+      48,
+      120
+     ],
+     "price": 122.46,
+     "quote": false
+    }
+   ],
+   "options": [
+    {
+     "label": "Single or Double Sided",
+     "choices": [
+      "One Sided",
+      "Two Sided"
+     ]
+    },
+    {
+     "label": "Add H Stakes",
+     "choices": [
+      "Regular H Stakes - 10x30"
+     ]
+    },
+    {
+     "label": "Add Grommets",
+     "choices": [
+      "1 Grommet",
+      "Grommets Top 2 Corners",
+      "Grommets All 4 Corners"
+     ]
+    },
+    {
+     "label": "Production Time is 8 to 9 Business Days-Select Rush Options",
+     "choices": [
+      "Production 8 to 9days until further notice"
+     ]
+    },
+    {
+     "label": "Cut to Shape",
+     "choices": [
+      "Simple Contour Cut to Shape -Circles Heart Ovals+",
+      "Complex Contour Cut to Shape"
+     ]
+    },
+    {
+     "label": "VERSIONS- UP TO 5 CHANGES- call for more changes",
+     "choices": [
+      "1 Additional art",
+      "2 Additional art",
+      "3 Additional art",
+      "4 Additional art",
+      "5 Additional art",
+      "6 Additional art",
+      "7 Additional art",
+      "8 Additional art",
+      "9 Additional art",
+      "10 Additional art"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "coroplast-6mm",
+   "name": "6mm Coroplast",
+   "category": "RIGID",
+   "subcategory": "COROPLAST",
+   "variants": [
+    {
+     "id": "1eb20b4b-06e7-463b-8818-20e0ef2225cb",
+     "label": "12\"x12\" Coroplast 6mm",
+     "size": [
+      12,
+      12
+     ],
+     "price": 20.85,
+     "quote": false
+    },
+    {
+     "id": "09c68ef3-bb57-47d0-b60c-e358426ad0a0",
+     "label": "12\"x16\" Coroplast 6mm",
+     "size": [
+      12,
+      16
+     ],
+     "price": 21.46,
+     "quote": false
+    },
+    {
+     "id": "5232ab16-eb05-48c7-b09c-c8e7ceb6cdc5",
+     "label": "12\"x18\" Coroplast 6mm",
+     "size": [
+      12,
+      18
+     ],
+     "price": 21.79,
+     "quote": false
+    },
+    {
+     "id": "5bce1240-8b59-4ce9-9a19-d3d0deceeb8f",
+     "label": "16\"x16\" Coroplast 6mm",
+     "size": [
+      16,
+      16
+     ],
+     "price": 21.76,
+     "quote": false
+    },
+    {
+     "id": "1a217171-4b78-4b0d-9e42-2c4079305cbc",
+     "label": "12\"x24\" Coroplast 6mm",
+     "size": [
+      12,
+      24
+     ],
+     "price": 22.28,
+     "quote": false
+    },
+    {
+     "id": "df17da58-dd54-452b-b90b-bc64644f57cc",
+     "label": "16x24 Coroplast 6mm",
+     "size": [
+      16,
+      24
+     ],
+     "price": 25.21,
+     "quote": false
+    },
+    {
+     "id": "72b56258-f2b6-4c70-a705-0820076241ae",
+     "label": "18hx24w Coroplast 6mm",
+     "size": [
+      18,
+      24
+     ],
+     "price": 25.87,
+     "quote": false
+    },
+    {
+     "id": "cfb5e8e0-5bbb-45c2-a861-f77ed46954c0",
+     "label": "24x24 Coroplast 6mm",
+     "size": [
+      24,
+      24
+     ],
+     "price": 27.3,
+     "quote": false
+    },
+    {
+     "id": "2d8e8a73-3e62-44ac-ae2e-079bdfc5f5b3",
+     "label": "24x32 Coroplast 6mm",
+     "size": [
+      24,
+      32
+     ],
+     "price": 39.05,
+     "quote": false
+    },
+    {
+     "id": "b22fa4ee-3f22-4e6d-a6c1-7a9a1f0f8e64",
+     "label": "24x36 Coroplast 6mm",
+     "size": [
+      24,
+      36
+     ],
+     "price": 39.17,
+     "quote": false
+    },
+    {
+     "id": "c5651c49-ec8c-4c0c-a407-8055a3379f0b",
+     "label": "24x48 Coroplast 6mm",
+     "size": [
+      24,
+      48
+     ],
+     "price": 45.62,
+     "quote": false
+    },
+    {
+     "id": "6a2ee1d7-0689-4d02-b9f6-1cfb15c61446",
+     "label": "32x48 Coroplast 6mm",
+     "size": [
+      32,
+      48
+     ],
+     "price": 52.78,
+     "quote": false
+    },
+    {
+     "id": "17737aa6-1469-45cc-a495-204dce441fc2",
+     "label": "36x48 Coroplast 6mm",
+     "size": [
+      36,
+      48
+     ],
+     "price": 53.2,
+     "quote": false
+    },
+    {
+     "id": "f1d0a49b-919b-4b8a-80d6-16923bc3c9dc",
+     "label": "48x48 Coroplast 6mm",
+     "size": [
+      48,
+      48
+     ],
+     "price": 67.34,
+     "quote": false
+    },
+    {
+     "id": "8ca0a385-36a9-40b9-b336-4cfd0d50096c",
+     "label": "36x72 Coroplast 6mm",
+     "size": [
+      36,
+      72
+     ],
+     "price": 100.44,
+     "quote": false
+    },
+    {
+     "id": "96f3c726-d705-4a3a-b987-d0619286ba68",
+     "label": "36x96 Coroplast 6mm",
+     "size": [
+      36,
+      96
+     ],
+     "price": 115.84,
+     "quote": false
+    },
+    {
+     "id": "9c16c2c9-7da2-4931-987b-bf273eea0b04",
+     "label": "48x72 Coroplast 6mm",
+     "size": [
+      48,
+      72
+     ],
+     "price": 102.91,
+     "quote": false
+    },
+    {
+     "id": "1a3412ee-9a6f-43bb-90d4-7b195825bd55",
+     "label": "48x96 Coroplast 6mm",
+     "size": [
+      48,
+      96
+     ],
+     "price": 117.81,
+     "quote": false
+    }
+   ],
+   "options": [
+    {
+     "label": "Single or Double Sided",
+     "choices": [
+      "One Sided",
+      "Two Sided"
+     ]
+    },
+    {
+     "label": "Add Grommets",
+     "choices": [
+      "2 Long Barrel Grommets",
+      "4 Long Barrel Grommets"
+     ]
+    },
+    {
+     "label": "Custom H Stakes",
+     "choices": [
+      "CUSTOM H Stakes - 10x30 - Call to confirm stock"
+     ]
+    },
+    {
+     "label": "Production Time is 3 to 4 Business Days-Select Rush Options",
+     "choices": [
+      "Next Day 24 Hr Rush (up to 100 pieces) Call to Confirm",
+      "SAME Day 6 Hr Rush -End Of Day Call Before you order.",
+      "3 Hr Rush up to 10 pieces - Must Call to confirm ."
+     ]
+    },
+    {
+     "label": "Cut to Shape",
+     "choices": [
+      "Simple Contour Cut to Shape -Circles Heart Ovals+",
+      "Complex Contour Cut to Shape"
+     ]
+    },
+    {
+     "label": "VERSIONS- UP TO 5 CHANGES- call for more changes",
+     "choices": [
+      "1 Additional art",
+      "2 Additional art",
+      "3 Additional art",
+      "4 Additional art",
+      "5 Additional art",
+      "6 Additional art",
+      "7 Additional art",
+      "8 Additional art",
+      "9 Additional art",
+      "10 Additional art"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "coroplast-10mm",
+   "name": "10mm Coroplast",
+   "category": "RIGID",
+   "subcategory": "COROPLAST",
+   "variants": [
+    {
+     "id": "5a44a95e-5022-47f9-9147-a416f281830b",
+     "label": "12hx12w\" Coroplast 10mm",
+     "size": [
+      12,
+      12
+     ],
+     "price": 15.39,
+     "quote": false
+    },
+    {
+     "id": "70dacbb3-b8bd-4f5b-b8a7-ef545cd97153",
+     "label": "12hx16w\" Coroplast 10mm",
+     "size": [
+      12,
+      16
+     ],
+     "price": 22.37,
+     "quote": false
+    },
+    {
+     "id": "0be62ad3-5d81-4477-bc74-cdcf6069bf33",
+     "label": "12hx18w\" Coroplast 10mm Flutes Assorted",
+     "size": [
+      12,
+      18
+     ],
+     "price": 22.95,
+     "quote": false
+    },
+    {
+     "id": "78d8ce51-bee4-46a5-a73f-9f9f4819d21c",
+     "label": "16hx16w\" Coroplast 10mm Flutes Assorted",
+     "size": [
+      16,
+      16
+     ],
+     "price": 21.76,
+     "quote": false
+    },
+    {
+     "id": "a2be82e3-749a-4498-8e7c-bdaf8c44dad0",
+     "label": "12hx24w\" Coroplast 10mm",
+     "size": [
+      12,
+      24
+     ],
+     "price": 24.34,
+     "quote": false
+    },
+    {
+     "id": "b0df8ccc-0395-4b54-ae72-e72fbb13da8a",
+     "label": "16hx24w\" Coroplast 10mm",
+     "size": [
+      16,
+      24
+     ],
+     "price": 27.63,
+     "quote": false
+    },
+    {
+     "id": "94b02d18-0217-4647-88b0-7fb00acd1891",
+     "label": "18hx24w\" Coroplast 10mm Flutes Assorted",
+     "size": [
+      18,
+      24
+     ],
+     "price": 27.95,
+     "quote": false
+    },
+    {
+     "id": "c3204ac8-9595-4fd4-b7a9-1efd3d6d9c4d",
+     "label": "24hx24w\" Coroplast 10mm Flutes Horizontal",
+     "size": [
+      24,
+      24
+     ],
+     "price": 34.06,
+     "quote": false
+    },
+    {
+     "id": "d1a462ad-b1cc-4b1f-9a02-cb2fbe85345c",
+     "label": "24hx32w\" Coroplast 10mm Flutes Horizontal",
+     "size": [
+      24,
+      32
+     ],
+     "price": 39.94,
+     "quote": false
+    },
+    {
+     "id": "6dc98f66-be98-4f00-8dcd-1d8f27196e30",
+     "label": "24hx36w\" Coroplast 10mm Flutes assorted",
+     "size": [
+      24,
+      36
+     ],
+     "price": 46.28,
+     "quote": false
+    },
+    {
+     "id": "f81d8dda-d2d4-420c-b037-310b0120ef1b",
+     "label": "30hx36w\" Coroplast 10mm",
+     "size": [
+      30,
+      36
+     ],
+     "price": 47.58,
+     "quote": false
+    },
+    {
+     "id": "918454ed-171c-4881-8b1f-efd6052abb2e",
+     "label": "24hx48w\" Coroplast 10mm",
+     "size": [
+      24,
+      48
+     ],
+     "price": 47.58,
+     "quote": false
+    },
+    {
+     "id": "75eb4079-3cb4-4220-9198-55003382a7d2",
+     "label": "32hx48w\" Coroplast 10mm flutes vertical",
+     "size": [
+      32,
+      48
+     ],
+     "price": 58.25,
+     "quote": false
+    },
+    {
+     "id": "60f90ef3-364d-4be3-97db-6247d8929db2",
+     "label": "36hx48w\" Coroplast 10mm flutes vertical",
+     "size": [
+      36,
+      48
+     ],
+     "price": 74.24,
+     "quote": false
+    },
+    {
+     "id": "d343aa45-7072-4fd0-a94f-52c193bdb049",
+     "label": "48x48 Coroplast 10mm",
+     "size": [
+      48,
+      48
+     ],
+     "price": 75.02,
+     "quote": false
+    },
+    {
+     "id": "f695c0ba-377c-42a1-857d-bcbdbc41ea00",
+     "label": "36x72\" Coroplast 10mm",
+     "size": [
+      36,
+      72
+     ],
+     "price": 125.66,
+     "quote": false
+    },
+    {
+     "id": "b0d34eb5-6789-49bc-9068-d78e6029a0fb",
+     "label": "36x96\" Coroplast 10mm",
+     "size": [
+      36,
+      96
+     ],
+     "price": 127.67,
+     "quote": false
+    },
+    {
+     "id": "9c682b26-ea3f-4b65-aeee-d68abea56f2b",
+     "label": "48x72\" Coroplast 10mm",
+     "size": [
+      48,
+      72
+     ],
+     "price": 124.8,
+     "quote": false
+    },
+    {
+     "id": "39a67f4d-a872-4fc8-849c-4e4d8775d6c2",
+     "label": "48\"x96\" Coroplast 10mm",
+     "size": [
+      48,
+      96
+     ],
+     "price": 141.31,
+     "quote": false
+    }
+   ],
+   "options": [
+    {
+     "label": "Single or Double Sided",
+     "choices": [
+      "One Sided",
+      "Two Sided"
+     ]
+    },
+    {
+     "label": "Add Grommets",
+     "choices": [
+      "2 Long Barrel Grommets",
+      "4 Long Barrel Grommets"
+     ]
+    },
+    {
+     "label": "Production Time is 3 to 4 Business Days-Select Rush Options",
+     "choices": [
+      "Next Day 24 Hr Rush (up to 100 pieces) Call to Confirm",
+      "SAME Day 6 Hr Rush (up to 20 pieces) Call to confirm",
+      "3 Hr Rush up to 10 pieces - Must Call to confirm ."
+     ]
+    },
+    {
+     "label": "Cut to Shape",
+     "choices": [
+      "Simple 10mm Contour Cut to Shape -Circles Heart Ovals",
+      "Complex 10mm Contour Cut to Shape"
+     ]
+    },
+    {
+     "label": "VERSIONS- UP TO 5 CHANGES- call for more changes",
+     "choices": [
+      "1 Additional art",
+      "2 Additional art",
+      "3 Additional art",
+      "4 Additional art",
+      "5 Additional art",
+      "6 Additional art",
+      "7 Additional art",
+      "8 Additional art",
+      "9 Additional art",
+      "10 Additional art"
+     ]
+    },
+    {
+     "label": "Lamination",
+     "choices": [
+      "Matte Lamination 12X12 1 side",
+      "Matte Lamination 12X12 2 side",
+      "Gloss Lamination 12X12 1 side",
+      "Gloss Lamination 12X12 2 side",
+      "Dry Erase Lamination -Re Writeable 12X12 1 side",
+      "Dry Erase Lamination -Re Writeable 12X12 2 side"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "foam-board",
+   "name": "3/16\" Foam board",
+   "category": "RIGID",
+   "subcategory": "FOAM BOARD",
+   "variants": [
+    {
+     "id": "be57b519-a1f7-470e-ac0e-f06504750304",
+     "label": "Foam board 3/16\"(4.5mm) 12\"x12\"",
+     "size": [
+      12,
+      12
+     ],
+     "price": 30.95,
+     "quote": false
+    },
+    {
+     "id": "15e4a430-ffa7-47e2-b7a9-6e6d3f6bffd2",
+     "label": "Foam board 3/16\"(4.5mm) 12\"x16\"",
+     "size": [
+      12,
+      16
+     ],
+     "price": 31.37,
+     "quote": false
+    },
+    {
+     "id": "128fb65e-66d9-447b-88f9-58d70cc7f6ad",
+     "label": "Foam board 3/16\"(4.5mm) 6\"x32\"",
+     "size": [
+      6,
+      32
+     ],
+     "price": 31.5,
+     "quote": false
+    },
+    {
+     "id": "045ef3b2-e672-43f3-ae43-2b5b859ec5fb",
+     "label": "Foam board 3/16\"(4.5mm) 12\"x18\"",
+     "size": [
+      12,
+      18
+     ],
+     "price": 32.7,
+     "quote": false
+    },
+    {
+     "id": "1bc30ec5-e014-4f3e-a456-9022b9d5dc5a",
+     "label": "Foam board 3/16\"(4.5mm) 6\"x36\"",
+     "size": [
+      6,
+      36
+     ],
+     "price": 32.7,
+     "quote": false
+    },
+    {
+     "id": "1d462455-a2ec-452c-b9cb-4ca60491e86f",
+     "label": "Foam board 3/16\"(4.5mm) 16\"x16\"",
+     "size": [
+      16,
+      16
+     ],
+     "price": 33.03,
+     "quote": false
+    },
+    {
+     "id": "371cbe7c-e061-48a7-bdda-1ac004863c49",
+     "label": "Foam board 3/16\"(4.5mm) 24\"x16\"",
+     "size": [
+      24,
+      16
+     ],
+     "price": 32.86,
+     "quote": false
+    },
+    {
+     "id": "8aea35d7-3f5a-4c73-8526-d4ec26d9e7e5",
+     "label": "Foam board 3/16\"(4.5mm) 24\"x18\"",
+     "size": [
+      24,
+      18
+     ],
+     "price": 33.09,
+     "quote": false
+    },
+    {
+     "id": "1003a0ce-98fb-4e32-997c-2007c9215c41",
+     "label": "Foam board 3/16\"(4.5mm) 24\"x24\"",
+     "size": [
+      24,
+      24
+     ],
+     "price": 33.4,
+     "quote": false
+    },
+    {
+     "id": "056780dc-7dc2-4402-82ac-e84ddaa1e24d",
+     "label": "Foam board 3/16\"(4.5mm) 24\"x32\"",
+     "size": [
+      24,
+      32
+     ],
+     "price": 33.7,
+     "quote": false
+    },
+    {
+     "id": "9ff383b2-928c-460f-938b-37a99eaaf54f",
+     "label": "Foam board 3/16\"(4.5mm) 24\"x36\"",
+     "size": [
+      24,
+      36
+     ],
+     "price": 33.79,
+     "quote": false
+    },
+    {
+     "id": "98e54d77-da1c-42e5-a2db-9ebf726191b8",
+     "label": "Foam board 3/16\"(4.5mm) 24\"x48\"",
+     "size": [
+      24,
+      48
+     ],
+     "price": 33.7,
+     "quote": false
+    },
+    {
+     "id": "b7b5d715-3495-426d-b77c-024d846d684f",
+     "label": "Foam board 3/16\"(4.5mm) 32\"x48\"",
+     "size": [
+      32,
+      48
+     ],
+     "price": 37.3,
+     "quote": false
+    },
+    {
+     "id": "fcd8954c-d641-4230-8a87-5300b9daacf9",
+     "label": "Foam board 3/16\"(4.5mm) 24\"x72\"",
+     "size": [
+      24,
+      72
+     ],
+     "price": 61.88,
+     "quote": false
+    },
+    {
+     "id": "87a0128f-1865-44a3-8536-0206b4185dfe",
+     "label": "Foam board 3/16\"(4.5mm) 36\"x48\"",
+     "size": [
+      36,
+      48
+     ],
+     "price": 48.72,
+     "quote": false
+    },
+    {
+     "id": "29fa633e-8560-4afc-9259-d63ceed93368",
+     "label": "Foam board 3/16\"(4.5mm) 24x96\"",
+     "size": [
+      24,
+      96
+     ],
+     "price": 55.48,
+     "quote": false
+    },
+    {
+     "id": "97bccd50-d42c-46bb-beb4-cb3315580a04",
+     "label": "Foam board 3/16\"(4.5mm) 48\"x48\"",
+     "size": [
+      48,
+      48
+     ],
+     "price": 47.27,
+     "quote": false
+    },
+    {
+     "id": "227dbe88-ad84-460d-944f-59de17ac1d43",
+     "label": "Foam board 3/16\"(4.5mm) 36\"x72\"",
+     "size": [
+      36,
+      72
+     ],
+     "price": 76.35,
+     "quote": false
+    },
+    {
+     "id": "fbef3c53-93e4-4cd4-b84b-037330c9a439",
+     "label": "Foam board 3/16\"(4.5mm) 48\"x60\"",
+     "size": [
+      48,
+      60
+     ],
+     "price": 74.59,
+     "quote": false
+    },
+    {
+     "id": "da10e00b-3d65-4194-8ffc-5d0e5cfd515e",
+     "label": "Foam board 3/16\"(4.5mm) 36\"x96\"",
+     "size": [
+      36,
+      96
+     ],
+     "price": 85.29,
+     "quote": false
+    },
+    {
+     "id": "3293882d-9832-404c-8c99-fcf5b9356626",
+     "label": "Foam board 3/16\"(4.5mm) 48X72\"",
+     "size": [
+      48,
+      72
+     ],
+     "price": 76.13,
+     "quote": false
+    },
+    {
+     "id": "bf6da473-9bbe-4aa5-b554-ebf3f984e351",
+     "label": "Foam board 3/16\"(4.5mm) 48x96\"",
+     "size": [
+      48,
+      96
+     ],
+     "price": 82.42,
+     "quote": false
+    }
+   ],
+   "options": [
+    {
+     "label": "Single Or Double Sided",
+     "choices": [
+      "One Sided",
+      "Two Sided"
+     ]
+    },
+    {
+     "label": "Add Grommets",
+     "choices": [
+      "Grommets Top 2 Corners",
+      "Grommets All 4 Corners"
+     ]
+    },
+    {
+     "label": "Cut to Shape",
+     "choices": [
+      "Simple Contour Cut to Shape -Circles Heart Ovals",
+      "Complex Contour Cut to Shape"
+     ]
+    },
+    {
+     "label": "Production Time is 3 to 5 Business Days-Select Rush Options Below",
+     "choices": [
+      "Next Day 24 Hr Rush (up to 100 pieces) Call to Confirm",
+      "SAME Day 6 Hr Rush -End Of Day Call Before you order."
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "pvc-12mm",
+   "name": "12mm PVC board",
+   "category": "RIGID",
+   "subcategory": "PVC",
+   "variants": [
+    {
+     "id": "91e6a213-cb4e-43b8-903f-04630e6233a3",
+     "label": "12 mm PVC 12\"x12\"",
+     "size": [
+      12,
+      12
+     ],
+     "price": 79.89,
+     "quote": false
+    },
+    {
+     "id": "6820ae62-549b-4828-87ab-2724ee5d1a7c",
+     "label": "12 mm PVC 12\"x18\"",
+     "size": [
+      12,
+      18
+     ],
+     "price": 84.71,
+     "quote": false
+    },
+    {
+     "id": "12d4e4b9-ca8e-44bf-86b6-416e68fba746",
+     "label": "12 mm PVC 16\"x16\"",
+     "size": [
+      16,
+      16
+     ],
+     "price": 72.19,
+     "quote": false
+    },
+    {
+     "id": "c828d76d-e9f2-48c3-9b75-3b97cde7f302",
+     "label": "12 mm PVC 12\"x24\"",
+     "size": [
+      12,
+      24
+     ],
+     "price": 93.13,
+     "quote": false
+    },
+    {
+     "id": "51e24387-8f05-4091-9a20-7412e3798c93",
+     "label": "12 mm PVC 16\"x24\"",
+     "size": [
+      16,
+      24
+     ],
+     "price": 97.86,
+     "quote": false
+    },
+    {
+     "id": "4ac34ec6-d180-4460-95a5-3a262f8b2831",
+     "label": "12 mm PVC 18\"x24\"",
+     "size": [
+      18,
+      24
+     ],
+     "price": 107.39,
+     "quote": false
+    },
+    {
+     "id": "f1534df8-e334-48ac-addc-d66b4a459eab",
+     "label": "12 mm PVC 24\"x24\"",
+     "size": [
+      24,
+      24
+     ],
+     "price": 123.23,
+     "quote": false
+    },
+    {
+     "id": "8e57b6ef-aba4-4eac-91b1-f3ca0d848bdc",
+     "label": "12 mm PVC 24\"x32\"",
+     "size": [
+      24,
+      32
+     ],
+     "price": 132.61,
+     "quote": false
+    },
+    {
+     "id": "0bd71bdb-ba9d-476d-be39-e7527911cfc5",
+     "label": "12 mm PVC 24\"x36\"",
+     "size": [
+      24,
+      36
+     ],
+     "price": 143.87,
+     "quote": false
+    },
+    {
+     "id": "e9a49547-b169-42ae-b7d8-f4ed95a1a54c",
+     "label": "12 mm PVC 24\"x48\"",
+     "size": [
+      24,
+      48
+     ],
+     "price": 146.15,
+     "quote": false
+    },
+    {
+     "id": "fabbadf4-54c0-474c-a20c-e35c8e33cdda",
+     "label": "12 mm PVC 32\"x48\"",
+     "size": [
+      32,
+      48
+     ],
+     "price": 189.06,
+     "quote": false
+    },
+    {
+     "id": "ca56af2b-a39f-4de1-9677-fd2bfcc79242",
+     "label": "12 mm PVC 36\"x48\"",
+     "size": [
+      36,
+      48
+     ],
+     "price": 227.94,
+     "quote": false
+    },
+    {
+     "id": "84a709fd-ef82-4522-bd59-4519075c34ec",
+     "label": "12 mm PVC 48\"x48\"",
+     "size": [
+      48,
+      48
+     ],
+     "price": 219.73,
+     "quote": false
+    },
+    {
+     "id": "4f6ec910-5997-4a3d-b800-a80b33581703",
+     "label": "12 mm PVC 36\"x72\"",
+     "size": [
+      36,
+      72
+     ],
+     "price": 400.44,
+     "quote": false
+    },
+    {
+     "id": "71b4d95f-201e-44ba-827f-a362598715f9",
+     "label": "12 mm PVC 36\"x96\"",
+     "size": [
+      36,
+      96
+     ],
+     "price": 418.07,
+     "quote": false
+    },
+    {
+     "id": "8e5e843f-6772-4f55-938a-753f34c20ad0",
+     "label": "12 mm PVC 48\"x72\"",
+     "size": [
+      48,
+      72
+     ],
+     "price": 416.47,
+     "quote": false
+    },
+    {
+     "id": "19a822a6-18de-4f26-9d6c-0c896113a411",
+     "label": "12 mm PVC 48\"x96\"",
+     "size": [
+      48,
+      96
+     ],
+     "price": 476.16,
+     "quote": false
+    }
+   ],
+   "options": [
+    {
+     "label": "Single or Double Sided",
+     "choices": [
+      "One Sided",
+      "Two Sided"
+     ]
+    },
+    {
+     "label": "Production 4 to 5 Working Days-Select Rush Options Below",
+     "choices": [
+      "Next Day 24 Hr Rush (up to 100 pieces) Call to Confirm",
+      "SAME Day 6 Hr Rush -End Of Day Call Before you order."
+     ]
+    },
+    {
+     "label": "Cut to Shape",
+     "choices": [
+      "Simple Contour Cut to Shape -Circles Heart Ovals",
+      "Complex Contour Cut to Shape -Circles Heart Ovals"
+     ]
+    },
+    {
+     "label": "Drill Holes",
+     "choices": [
+      "1 Hole Drilled",
+      "2 Holes Drilled",
+      "3 Holes Drilled",
+      "4 Holes Drilled",
+      "5 Holes Drilled",
+      "6 Holes Drilled"
+     ]
+    },
+    {
+     "label": "VERSIONS- UP TO 5 CHANGES- call for more changes",
+     "choices": [
+      "1 Additional art",
+      "2 Additional art",
+      "3 Additional art",
+      "4 Additional art",
+      "5 Additional art",
+      "6 Additional art",
+      "7 Additional art",
+      "8 Additional art",
+      "9 Additional art",
+      "10 Additional art"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "pvc-10mm",
+   "name": "10mm PVC board",
+   "category": "RIGID",
+   "subcategory": "PVC",
+   "variants": [
+    {
+     "id": "4bf57a28-ac20-4f12-89c2-542fe4e51e58",
+     "label": "10mm PVC 12\"x12\"",
+     "size": [
+      12,
+      12
+     ],
+     "price": 50.39,
+     "quote": false
+    },
+    {
+     "id": "5b0f8efd-6f44-4bec-b971-3675829e2249",
+     "label": "10mm PVC 12\"x18\"",
+     "size": [
+      12,
+      18
+     ],
+     "price": 59.38,
+     "quote": false
+    },
+    {
+     "id": "86a82840-4875-4249-a77e-8f3a61e1471d",
+     "label": "10 mm PVC 16\"x16\"",
+     "size": [
+      16,
+      16
+     ],
+     "price": 64.31,
+     "quote": false
+    },
+    {
+     "id": "864e32dd-7b23-4df1-a769-f1366875233a",
+     "label": "10mm PVC 12\"x24\"",
+     "size": [
+      12,
+      24
+     ],
+     "price": 62.61,
+     "quote": false
+    },
+    {
+     "id": "200d6001-54f6-4b76-97fb-8894959eb353",
+     "label": "10mm PVC 16\"x24\"",
+     "size": [
+      16,
+      24
+     ],
+     "price": 67.87,
+     "quote": false
+    },
+    {
+     "id": "ade175a0-d9f7-4640-abd7-42c0dceeda08",
+     "label": "10mm PVC 18\"x24\"",
+     "size": [
+      18,
+      24
+     ],
+     "price": 74.89,
+     "quote": false
+    },
+    {
+     "id": "4ef62003-4a96-4c86-9fd7-8d0bad524ba8",
+     "label": "10mm PVC 24\"x24\"",
+     "size": [
+      24,
+      24
+     ],
+     "price": 88.65,
+     "quote": false
+    },
+    {
+     "id": "c7965fea-970a-436d-8ff7-14c1405f353e",
+     "label": "10mm PVC 24\"x32\"",
+     "size": [
+      24,
+      32
+     ],
+     "price": 96.66,
+     "quote": false
+    },
+    {
+     "id": "5dba078f-eafb-429e-a775-32ee015d6d7d",
+     "label": "10mm PVC 24\"x36\"",
+     "size": [
+      24,
+      36
+     ],
+     "price": 109.81,
+     "quote": false
+    },
+    {
+     "id": "67109c87-4513-4bcc-bf28-47ab61c6ea80",
+     "label": "10mm PVC 24\"x48\"",
+     "size": [
+      24,
+      48
+     ],
+     "price": 113.33,
+     "quote": false
+    },
+    {
+     "id": "71e53560-09e7-4c5d-b68f-60a43d91b573",
+     "label": "10mm PVC 32\"x48\"",
+     "size": [
+      32,
+      48
+     ],
+     "price": 147.95,
+     "quote": false
+    },
+    {
+     "id": "f1e89b24-9701-4f0f-98d2-22f77adba132",
+     "label": "10mm PVC 36\"x48\"",
+     "size": [
+      36,
+      48
+     ],
+     "price": 179.89,
+     "quote": false
+    },
+    {
+     "id": "eec86909-5a4d-4b1f-8310-87fa45eadf55",
+     "label": "10mm PVC 48\"x48\"",
+     "size": [
+      48,
+      48
+     ],
+     "price": 178.36,
+     "quote": false
+    },
+    {
+     "id": "e4b4c6f5-a242-4f2e-9b8b-fa897d1a8fde",
+     "label": "10mm PVC 36\"x72\"",
+     "size": [
+      36,
+      72
+     ],
+     "price": 313.14,
+     "quote": false
+    },
+    {
+     "id": "5546e8ae-2db7-4410-8321-ae72232bb7c9",
+     "label": "10mm PVC 36\"x96\"",
+     "size": [
+      36,
+      96
+     ],
+     "price": 327.44,
+     "quote": false
+    },
+    {
+     "id": "20ef20bb-acea-44b8-9ade-25a8bdf3c2da",
+     "label": "10mm PVC 48\"x72\"",
+     "size": [
+      48,
+      72
+     ],
+     "price": 330.1,
+     "quote": false
+    },
+    {
+     "id": "ba4e9d83-555a-4532-bfd5-be688fcbfce0",
+     "label": "10mm PVC 48\"x96\"",
+     "size": [
+      48,
+      96
+     ],
+     "price": 341.13,
+     "quote": false
+    }
+   ],
+   "options": [
+    {
+     "label": "Single or Double Sided",
+     "choices": [
+      "One Sided",
+      "Two Sided"
+     ]
+    },
+    {
+     "label": "Add Grommets",
+     "choices": [
+      "1 Long Barrel Grommet",
+      "2 Long Barrel Grommets",
+      "4 Long Barrel Grommets"
+     ]
+    },
+    {
+     "label": "Production 4 to 5 Working Days-Select Rush Options Below",
+     "choices": [
+      "Next Day 24 Hr Rush (up to 100 pieces) Call to Confirm",
+      "SAME Day 6 Hr Rush -End Of Day Call Before you order."
+     ]
+    },
+    {
+     "label": "Cut to Shape",
+     "choices": [
+      "Simple Contour Cut to Shape -Circles Heart Ovals",
+      "Complex Contour Cut to Shape -Circles Heart Ovals"
+     ]
+    },
+    {
+     "label": "Drill Holes",
+     "choices": [
+      "1 Hole Drilled",
+      "2 Holes Drilled",
+      "3 Holes Drilled",
+      "4 Holes Drilled",
+      "5 Holes Drilled",
+      "6 Holes Drilled"
+     ]
+    },
+    {
+     "label": "VERSIONS- UP TO 5 CHANGES- call for more changes",
+     "choices": [
+      "1 Additional art",
+      "2 Additional art",
+      "3 Additional art",
+      "4 Additional art",
+      "5 Additional art",
+      "6 Additional art",
+      "7 Additional art",
+      "8 Additional art",
+      "9 Additional art",
+      "10 Additional art"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "petg-020",
+   "name": ".020 Clear PETG",
+   "category": "RIGID",
+   "subcategory": "PETG CLEAR",
+   "variants": [
+    {
+     "id": "d69d3c0d-c971-418d-9609-d9171a69e358",
+     "label": ".020 PETG Clear 12\" x12\"",
+     "size": [
+      12,
+      12
+     ],
+     "price": 0,
+     "quote": true
+    },
+    {
+     "id": "62d7c130-2315-4f50-b4df-14aa7a40be14",
+     "label": ".020 PETG Clear 12\" x16\"",
+     "size": [
+      12,
+      16
+     ],
+     "price": 0,
+     "quote": true
+    },
+    {
+     "id": "4abe4e49-7385-411a-a9cb-9dec4d5134d0",
+     "label": ".020 PETG Clear 12\" x18\"",
+     "size": [
+      12,
+      18
+     ],
+     "price": 0,
+     "quote": true
+    },
+    {
+     "id": "89a46d20-84fe-413c-bd0d-2a2be43dc596",
+     "label": ".020 PETG Clear 16\" x16\"",
+     "size": [
+      16,
+      16
+     ],
+     "price": 0,
+     "quote": true
+    },
+    {
+     "id": "cccad53b-9f53-43a8-b11f-0b2a77b7609d",
+     "label": ".020 PETG Clear 12\" x24\"",
+     "size": [
+      12,
+      24
+     ],
+     "price": 0,
+     "quote": true
+    },
+    {
+     "id": "d41f707c-0089-4ada-9122-3e22b1c80470",
+     "label": ".020 PETG Clear 16\" x24\"",
+     "size": [
+      16,
+      24
+     ],
+     "price": 0,
+     "quote": true
+    },
+    {
+     "id": "5bbe1bba-6303-472d-bf3b-158d3463de09",
+     "label": ".020 PETG Clear 18\" x24\"",
+     "size": [
+      18,
+      24
+     ],
+     "price": 0,
+     "quote": true
+    },
+    {
+     "id": "cbe6c850-d94f-4780-9b43-bfcb9a492c3e",
+     "label": ".020 PETG Clear 24\" x24\"",
+     "size": [
+      24,
+      24
+     ],
+     "price": 0,
+     "quote": true
+    },
+    {
+     "id": "2dc6c3e5-8af3-4475-80c6-a067724d820f",
+     "label": ".020 PETG Clear 24\" x32\"",
+     "size": [
+      24,
+      32
+     ],
+     "price": 0,
+     "quote": true
+    },
+    {
+     "id": "b6da2261-354a-4ae4-82fe-58d01fb5cc46",
+     "label": ".020 PETG Clear 24\" x36\"",
+     "size": [
+      24,
+      36
+     ],
+     "price": 0,
+     "quote": true
+    },
+    {
+     "id": "bd794852-e112-4b49-ba3a-959a611337c4",
+     "label": ".020 PETG Clear 24\" x48\"",
+     "size": [
+      24,
+      48
+     ],
+     "price": 0,
+     "quote": true
+    },
+    {
+     "id": "4c204508-d752-4dc2-a4f8-7f5c8130187c",
+     "label": ".020 PETG Clear 32\" x48\"",
+     "size": [
+      32,
+      48
+     ],
+     "price": 0,
+     "quote": true
+    },
+    {
+     "id": "10f3c7f6-a345-4587-8c77-6d9308d80208",
+     "label": ".020 PETG Clear 24\" x72\"",
+     "size": [
+      24,
+      72
+     ],
+     "price": 0,
+     "quote": true
+    },
+    {
+     "id": "e3e5dda2-6e4c-4791-bf3a-24c4070ff882",
+     "label": ".020 PETG Clear 36\" x48\"",
+     "size": [
+      36,
+      48
+     ],
+     "price": 0,
+     "quote": true
+    },
+    {
+     "id": "6e75e5a1-7f23-4d57-844d-87f6190af43d",
+     "label": ".020 PETG Clear 48\" x48\"",
+     "size": [
+      48,
+      48
+     ],
+     "price": 0,
+     "quote": true
+    },
+    {
+     "id": "eccafa13-9300-4f9d-9fe8-238daba4b62f",
+     "label": ".020 PETG Clear 36\" x72\"",
+     "size": [
+      36,
+      72
+     ],
+     "price": 0,
+     "quote": true
+    },
+    {
+     "id": "db4e8f79-5560-416b-80e8-db31afa6061a",
+     "label": ".020 PETG Clear 36\" x96\"",
+     "size": [
+      36,
+      96
+     ],
+     "price": 0,
+     "quote": true
+    },
+    {
+     "id": "98db6abb-beff-47a4-947a-c5499c858351",
+     "label": ".020 PETG Clear 48\" x72\"",
+     "size": [
+      48,
+      72
+     ],
+     "price": 0,
+     "quote": true
+    },
+    {
+     "id": "50eb928a-b3f5-4a76-a7f3-1d0d027111fe",
+     "label": ".020 PETG Clear 48\" x96\"",
+     "size": [
+      48,
+      96
+     ],
+     "price": 0,
+     "quote": true
+    }
+   ],
+   "options": [
+    {
+     "label": "Single Sided",
+     "choices": [
+      "One Sided"
+     ]
+    },
+    {
+     "label": "Add Grommets",
+     "choices": [
+      "1 Grommet",
+      "Grommets Top 2 Corners",
+      "Grommets All 4 Corners"
+     ]
+    },
+    {
+     "label": "Production 4 to 5 Working Days-Select Rush Options Below",
+     "choices": [
+      "Next Day 24 Hr Rush (up to 100 pieces) Call to Confirm",
+      "SAME Day 6 Hr Rush -End Of Day Call Before you order.",
+      "3 Hr Rush up to 10 pieces - Must Call to confirm ."
+     ]
+    },
+    {
+     "label": "Cut to Shape",
+     "choices": [
+      "Simple Contour Cut to Shape -Circles Heart Ovals+",
+      "Complex Contour Cut to Shape"
+     ]
+    },
+    {
+     "label": "Drill Holes",
+     "choices": [
+      "1 Hole Drilled",
+      "2 Holes Drilled",
+      "3 Holes Drilled",
+      "4 Holes Drilled",
+      "5 Holes Drilled",
+      "6 Holes Drilled"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "petg-040",
+   "name": ".040 Clear PETG",
+   "category": "RIGID",
+   "subcategory": "PETG CLEAR",
+   "variants": [
+    {
+     "id": "cd53736f-027d-4726-84bd-8b73f72ab70a",
+     "label": ".040 PETG Clear 12\" x12\"",
+     "size": [
+      12,
+      12
+     ],
+     "price": 0,
+     "quote": true
+    },
+    {
+     "id": "41ad5d32-279a-44a7-bd38-b081fa0eff5c",
+     "label": ".040 PETG Clear 12\" x16\"",
+     "size": [
+      12,
+      16
+     ],
+     "price": 42.35,
+     "quote": false
+    },
+    {
+     "id": "9d8b380d-ca14-47c5-8d55-30b94deb66e9",
+     "label": ".040 PETG Clear 12\" x18\"",
+     "size": [
+      12,
+      18
+     ],
+     "price": 44.55,
+     "quote": false
+    },
+    {
+     "id": "948a53c7-ca8a-4105-a5e7-e81690e34636",
+     "label": ".040 PETG Clear 16\" x16\"",
+     "size": [
+      16,
+      16
+     ],
+     "price": 39.26,
+     "quote": false
+    },
+    {
+     "id": "f056a2e0-b546-485c-a1b0-bbe92c28eb34",
+     "label": ".040 PETG Clear 12\" x24\"",
+     "size": [
+      12,
+      24
+     ],
+     "price": 48.95,
+     "quote": false
+    },
+    {
+     "id": "8a9f71a5-40f8-49cb-88dd-6b13f6674a7c",
+     "label": ".040 PETG Clear 16\" x24\"",
+     "size": [
+      16,
+      24
+     ],
+     "price": 51.13,
+     "quote": false
+    },
+    {
+     "id": "2d5e5ecd-61da-4f24-b430-c9b6d9776706",
+     "label": ".040 PETG Clear 18\" x24\"",
+     "size": [
+      18,
+      24
+     ],
+     "price": 56.06,
+     "quote": false
+    },
+    {
+     "id": "32a9c9b5-5eba-4dc9-82fc-60bd1890c056",
+     "label": ".040 PETG Clear 24\" x24\"",
+     "size": [
+      24,
+      24
+     ],
+     "price": 63.93,
+     "quote": false
+    },
+    {
+     "id": "bc6b21ba-8e4f-4a37-9ba2-a4ddb8e35043",
+     "label": ".040 PETG Clear 24\" x32\"",
+     "size": [
+      24,
+      32
+     ],
+     "price": 68.64,
+     "quote": false
+    },
+    {
+     "id": "1f328166-1ffc-4c96-bca1-ce214696324b",
+     "label": ".040 PETG Clear 24\" x36\"",
+     "size": [
+      24,
+      36
+     ],
+     "price": 73.76,
+     "quote": false
+    },
+    {
+     "id": "bd0f3db6-88ca-4b73-86db-adb4b02def8d",
+     "label": ".040 PETG Clear 24\" x48\"",
+     "size": [
+      24,
+      48
+     ],
+     "price": 74.66,
+     "quote": false
+    },
+    {
+     "id": "a1abb65c-36cc-4b6e-8517-bdfca0a0e8c9",
+     "label": ".040 PETG Clear 32\" x48\"",
+     "size": [
+      32,
+      48
+     ],
+     "price": 104.27,
+     "quote": false
+    },
+    {
+     "id": "f173a4c8-6b14-4bf0-a7aa-cadb6dc38d07",
+     "label": ".040 PETG Clear 24\" x72\"",
+     "size": [
+      24,
+      72
+     ],
+     "price": 99.84,
+     "quote": false
+    },
+    {
+     "id": "7fda204e-bbc8-4c41-abd4-f496589f56ee",
+     "label": ".040 PETG Clear 36\" x48\"",
+     "size": [
+      36,
+      48
+     ],
+     "price": 116.01,
+     "quote": false
+    },
+    {
+     "id": "f77ee349-88da-45db-884f-40010d59edfe",
+     "label": ".040 PETG Clear 48\" x48\"",
+     "size": [
+      48,
+      48
+     ],
+     "price": 111.11,
+     "quote": false
+    },
+    {
+     "id": "5a871608-e3a4-4463-bb63-a26e628dc759",
+     "label": ".040 PETG Clear 36\" x72\"",
+     "size": [
+      36,
+      72
+     ],
+     "price": 190.18,
+     "quote": false
+    },
+    {
+     "id": "321f3d95-5d8e-4e03-9074-17bb52309fca",
+     "label": ".040 PETG Clear 36\" x96\"",
+     "size": [
+      36,
+      96
+     ],
+     "price": 211.15,
+     "quote": false
+    },
+    {
+     "id": "28a57486-9b80-466c-b5c7-5b6d4d16d278",
+     "label": ".040 PETG Clear 48\" x72\"",
+     "size": [
+      48,
+      72
+     ],
+     "price": 190.18,
+     "quote": false
+    },
+    {
+     "id": "98d57da1-e3d2-427f-93ba-a31df4bd3165",
+     "label": ".040 PETG Clear 48\" x96\"",
+     "size": [
+      48,
+      96
+     ],
+     "price": 199.88,
+     "quote": false
+    }
+   ],
+   "options": [
+    {
+     "label": "Single Sided",
+     "choices": [
+      "One Sided"
+     ]
+    },
+    {
+     "label": "Add Grommets",
+     "choices": [
+      "1 Grommet",
+      "Grommets Top 2 Corners",
+      "Grommets All 4 Corners"
+     ]
+    },
+    {
+     "label": "Production 4 to 5 Working Days-Select Rush Options Below",
+     "choices": [
+      "Next Day 24 Hr Rush (up to 100 pieces) Call to Confirm",
+      "SAME Day 6 Hr Rush -End Of Day Call Before you order.",
+      "3 Hr Rush up to 10 pieces - Must Call to confirm ."
+     ]
+    },
+    {
+     "label": "Cut to Shape",
+     "choices": [
+      "Simple Contour Cut to Shape -Circles Heart Ovals+",
+      "Complex Contour Cut to Shape"
+     ]
+    },
+    {
+     "label": "Drill Holes",
+     "choices": [
+      "1 Hole Drilled",
+      "2 Holes Drilled",
+      "3 Holes Drilled",
+      "4 Holes Drilled",
+      "5 Holes Drilled",
+      "6 Holes Drilled"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "pvc-3mm",
+   "name": "3mm PVC board",
+   "category": "RIGID",
+   "subcategory": "PVC",
+   "variants": [
+    {
+     "id": "85425472-20a8-4daa-a3e0-f00d739e7c71",
+     "label": "3mm PVC 12\"x12\"",
+     "size": [
+      12,
+      12
+     ],
+     "price": 26.4,
+     "quote": false
+    },
+    {
+     "id": "e2c13c31-7eb5-4c08-addc-2a21b0b2582b",
+     "label": "3mm PVC 12\"x16\"",
+     "size": [
+      12,
+      16
+     ],
+     "price": 28.35,
+     "quote": false
+    },
+    {
+     "id": "d270bdc7-380c-47b1-a971-4b947f27a20c",
+     "label": "3mm PVC 12\"x18\"",
+     "size": [
+      12,
+      18
+     ],
+     "price": 29.64,
+     "quote": false
+    },
+    {
+     "id": "37c23930-e201-4979-b773-a20ff1317e53",
+     "label": "3mm PVC 16\"x16\"",
+     "size": [
+      16,
+      16
+     ],
+     "price": 32.76,
+     "quote": false
+    },
+    {
+     "id": "63d41227-6dee-412a-ad33-2934826eccce",
+     "label": "3mm PVC 12\"x24\"",
+     "size": [
+      12,
+      24
+     ],
+     "price": 29.47,
+     "quote": false
+    },
+    {
+     "id": "3b57b81c-fda9-4445-b1f7-8222d0e0d35d",
+     "label": "3mm PVC 16\"x24\"",
+     "size": [
+      16,
+      24
+     ],
+     "price": 29.29,
+     "quote": false
+    },
+    {
+     "id": "353069c9-ec40-45b6-b3da-c7a3a680f13e",
+     "label": "3mm PVC 18\"x24\"",
+     "size": [
+      18,
+      24
+     ],
+     "price": 32.96,
+     "quote": false
+    },
+    {
+     "id": "75f17746-1892-4c1e-8982-8f22dadb346a",
+     "label": "3mm PVC 24\"x24\"",
+     "size": [
+      24,
+      24
+     ],
+     "price": 36.15,
+     "quote": false
+    },
+    {
+     "id": "1a9d20bc-b1f0-42b6-b300-81b455641965",
+     "label": "3mm PVC 24\"x32\"",
+     "size": [
+      24,
+      32
+     ],
+     "price": 44.89,
+     "quote": false
+    },
+    {
+     "id": "850fd1df-755b-4258-a2e7-67ef24c9cb24",
+     "label": "3mm PVC 24\"x36\"",
+     "size": [
+      24,
+      36
+     ],
+     "price": 44.64,
+     "quote": false
+    },
+    {
+     "id": "6b538f77-a03e-4758-b435-25b7365b794b",
+     "label": "3mm PVC 24\"x48\"",
+     "size": [
+      24,
+      48
+     ],
+     "price": 45.99,
+     "quote": false
+    },
+    {
+     "id": "19209512-13e4-477d-9df7-f3a80d144ff4",
+     "label": "3mm PVC 32\"x48\"",
+     "size": [
+      32,
+      48
+     ],
+     "price": 45.5,
+     "quote": false
+    },
+    {
+     "id": "44732307-c5df-43f1-9b37-7ec501c8328c",
+     "label": "3mm PVC 36\"x48\"",
+     "size": [
+      36,
+      48
+     ],
+     "price": 64.36,
+     "quote": false
+    },
+    {
+     "id": "1e000f28-a63e-4e94-a514-e216dfc727d4",
+     "label": "3mm PVC 48\"x48\"",
+     "size": [
+      48,
+      48
+     ],
+     "price": 75.71,
+     "quote": false
+    },
+    {
+     "id": "515fbeec-e303-41d7-a056-7207b5479d1a",
+     "label": "3mm PVC 36\"x72\"",
+     "size": [
+      36,
+      72
+     ],
+     "price": 130.79,
+     "quote": false
+    },
+    {
+     "id": "0070be20-17c3-4536-970a-c139c8386328",
+     "label": "3mm PVC 48\"x60\"",
+     "size": [
+      48,
+      60
+     ],
+     "price": 130.79,
+     "quote": false
+    },
+    {
+     "id": "397eb95a-1df2-4995-8e17-5191b427bb91",
+     "label": "3mm PVC 36\"x96\"",
+     "size": [
+      36,
+      96
+     ],
+     "price": 134.19,
+     "quote": false
+    },
+    {
+     "id": "796ca2ec-9aec-4386-ae72-c8347b643f07",
+     "label": "3mm PVC 48\"x72\"",
+     "size": [
+      48,
+      72
+     ],
+     "price": 135.14,
+     "quote": false
+    },
+    {
+     "id": "a9ece054-2b31-485f-a5cd-a88e19634e7c",
+     "label": "3mm PVC 48\"x96\"",
+     "size": [
+      48,
+      96
+     ],
+     "price": 135.79,
+     "quote": false
+    }
+   ],
+   "options": [
+    {
+     "label": "Single or Double Sided",
+     "choices": [
+      "One Sided",
+      "Two Sided"
+     ]
+    },
+    {
+     "label": "Add Grommets",
+     "choices": [
+      "1 Grommet",
+      "Grommets Top 2 Corners",
+      "Grommets All 4 Corners"
+     ]
+    },
+    {
+     "label": "Production 3 to 4 Working Days-Select Rush Options Below",
+     "choices": [
+      "Next Day 24 Hr Rush (up to 100 pieces) Call to Confirm",
+      "SAME Day 6 Hr Rush -End Of Day Call Before you order.",
+      "3 Hr Rush up to 10 pieces - Must Call to confirm ."
+     ]
+    },
+    {
+     "label": "Cut to Shape",
+     "choices": [
+      "Simple Contour Cut to Shape -Circles Heart Ovals+",
+      "Complex Contour Cut to Shape"
+     ]
+    },
+    {
+     "label": "Drill Holes",
+     "choices": [
+      "1 Hole Drilled",
+      "2 Holes Drilled",
+      "3 Holes Drilled",
+      "4 Holes Drilled",
+      "5 Holes Drilled",
+      "6 Holes Drilled"
+     ]
+    },
+    {
+     "label": "VERSIONS- UP TO 5 CHANGES- call for more changes",
+     "choices": [
+      "1 Additional art",
+      "2 Additional art",
+      "3 Additional art",
+      "4 Additional art",
+      "5 Additional art",
+      "6 Additional art",
+      "7 Additional art",
+      "8 Additional art",
+      "9 Additional art",
+      "10 Additional art"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "pvc-6mm",
+   "name": "6mm PVC board",
+   "category": "RIGID",
+   "subcategory": "PVC",
+   "variants": [
+    {
+     "id": "7a6179fb-375e-4a11-b3b4-2bb052e154b6",
+     "label": "6mm PVC 12\"x12\"",
+     "size": [
+      12,
+      12
+     ],
+     "price": 44.19,
+     "quote": false
+    },
+    {
+     "id": "fc74ccc1-40c1-4441-9165-0b23504f90cb",
+     "label": "6mm PVC 12\"x16\"",
+     "size": [
+      12,
+      16
+     ],
+     "price": 43.94,
+     "quote": false
+    },
+    {
+     "id": "155c6812-0696-41e2-b831-60977e08e289",
+     "label": "6mm PVC 12\"x18\"",
+     "size": [
+      12,
+      18
+     ],
+     "price": 49.61,
+     "quote": false
+    },
+    {
+     "id": "29b177b3-defe-47ce-86d0-ddff447ca95a",
+     "label": "6mm PVC 16\"x16\"",
+     "size": [
+      16,
+      16
+     ],
+     "price": 39.26,
+     "quote": false
+    },
+    {
+     "id": "1424774f-526b-4a48-8b2b-19c65a9f6f42",
+     "label": "6mm PVC 12\"x24\"",
+     "size": [
+      12,
+      24
+     ],
+     "price": 48.54,
+     "quote": false
+    },
+    {
+     "id": "f5a6004d-1a1b-4016-858a-497450b783bf",
+     "label": "6mm PVC 16\"x24\"",
+     "size": [
+      16,
+      24
+     ],
+     "price": 52.51,
+     "quote": false
+    },
+    {
+     "id": "78a0d0de-a64c-44cc-b6cc-0052c49fec3b",
+     "label": "6mm PVC 18\"x24\"",
+     "size": [
+      18,
+      24
+     ],
+     "price": 57.6,
+     "quote": false
+    },
+    {
+     "id": "867fdc21-3699-4651-9610-0dba6967be76",
+     "label": "6mm PVC 24\"x24\"",
+     "size": [
+      24,
+      24
+     ],
+     "price": 65.96,
+     "quote": false
+    },
+    {
+     "id": "cfaccec4-7248-4672-8886-deff998b2d1a",
+     "label": "6mm PVC 24\"x32\"",
+     "size": [
+      24,
+      32
+     ],
+     "price": 70.94,
+     "quote": false
+    },
+    {
+     "id": "beb1ee45-482d-436e-8d83-6a58159b6869",
+     "label": "6mm PVC 24\"x36\"",
+     "size": [
+      24,
+      36
+     ],
+     "price": 76.73,
+     "quote": false
+    },
+    {
+     "id": "f47e2304-d386-4908-b12e-89c45b2e2870",
+     "label": "6mm PVC 24\"x48\"",
+     "size": [
+      24,
+      48
+     ],
+     "price": 77.84,
+     "quote": false
+    },
+    {
+     "id": "e71195e6-f55b-4845-a797-38f0c1310b4a",
+     "label": "6mm PVC 32\"x48\"",
+     "size": [
+      32,
+      48
+     ],
+     "price": 108.98,
+     "quote": false
+    },
+    {
+     "id": "0dbe1311-34c2-4c26-9a14-57d35912e2ca",
+     "label": "6mm PVC 36\"x48\"",
+     "size": [
+      36,
+      48
+     ],
+     "price": 121.25,
+     "quote": false
+    },
+    {
+     "id": "0dd505ff-884e-40f4-9eab-c01217d1ebba",
+     "label": "6mm PVC 48x48\"",
+     "size": [
+      48,
+      48
+     ],
+     "price": 116.64,
+     "quote": false
+    },
+    {
+     "id": "ed38c587-b6e0-4bca-8dca-59904d49f31c",
+     "label": "6mm PVC 36\"x72\"",
+     "size": [
+      36,
+      72
+     ],
+     "price": 199.03,
+     "quote": false
+    },
+    {
+     "id": "f983c824-c71f-4488-be56-61b9a60c2dee",
+     "label": "6mm PVC 36\"x96\"",
+     "size": [
+      36,
+      96
+     ],
+     "price": 222.14,
+     "quote": false
+    },
+    {
+     "id": "c54b7ce4-6980-47f9-b904-d54389d22161",
+     "label": "6mm PVC 48x72\"",
+     "size": [
+      48,
+      72
+     ],
+     "price": 199.03,
+     "quote": false
+    },
+    {
+     "id": "dbc7a9fd-65af-41da-9417-21e2978f39f0",
+     "label": "6mm PVC 48x96\"",
+     "size": [
+      48,
+      96
+     ],
+     "price": 210.93,
+     "quote": false
+    },
+    {
+     "id": "f0f1c824-25bf-4935-87f1-8fd9e46d5f15",
+     "label": "6mm PVC 120x60\"",
+     "size": [
+      120,
+      60
+     ],
+     "price": 347.75,
+     "quote": false
+    }
+   ],
+   "options": [
+    {
+     "label": "Single or Double Sided",
+     "choices": [
+      "One Sided",
+      "Two Sided"
+     ]
+    },
+    {
+     "label": "Add Grommets",
+     "choices": [
+      "1 Long Barrel Grommet",
+      "2 Long Barrel Grommets",
+      "4 Long Barrel Grommets"
+     ]
+    },
+    {
+     "label": "Production 4 to 5 Working Days-Select Rush Options Below",
+     "choices": [
+      "Next Day 24 Hr Rush (up to 100 pieces) Call to Confirm",
+      "SAME Day 6 Hr Rush -End Of Day Call Before you order."
+     ]
+    },
+    {
+     "label": "Cut to Shape",
+     "choices": [
+      "Simple Contour Cut to Shape -Circles Heart Ovals",
+      "Complex Contour Cut to Shape -Circles Heart Ovals"
+     ]
+    },
+    {
+     "label": "Drill Holes",
+     "choices": [
+      "1 Hole Drilled",
+      "2 Holes Drilled",
+      "3 Holes Drilled",
+      "4 Holes Drilled",
+      "5 Holes Drilled",
+      "6 Holes Drilled"
+     ]
+    },
+    {
+     "label": "VERSIONS- UP TO 5 CHANGES- call for more changes",
+     "choices": [
+      "1 Additional art",
+      "2 Additional art",
+      "3 Additional art",
+      "4 Additional art",
+      "5 Additional art",
+      "6 Additional art",
+      "7 Additional art",
+      "8 Additional art",
+      "9 Additional art",
+      "10 Additional art"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "styrene-020",
+   "name": ".020 Styrene",
+   "category": "RIGID",
+   "subcategory": "STYRENE",
+   "variants": [
+    {
+     "id": "d18bf9b9-7191-4d8d-bde7-eef087e4b2ae",
+     "label": ".020 Styrene 6X6",
+     "size": [
+      6,
+      6
+     ],
+     "price": 20.09,
+     "quote": false
+    },
+    {
+     "id": "b465a1e8-bd1c-40e9-8d46-3d25b5e9619b",
+     "label": ".020 Styrene 12X12",
+     "size": [
+      12,
+      12
+     ],
+     "price": 23.09,
+     "quote": false
+    },
+    {
+     "id": "1c00f90e-07fb-4a83-b152-bf08f33bb619",
+     "label": ".020 Styrene 12X16",
+     "size": [
+      12,
+      16
+     ],
+     "price": 23.09,
+     "quote": false
+    },
+    {
+     "id": "ab14610c-1c6c-4b21-ab51-f93a085d4da5",
+     "label": ".020 Styrene 12X18",
+     "size": [
+      12,
+      18
+     ],
+     "price": 23.09,
+     "quote": false
+    },
+    {
+     "id": "0fb24447-1702-4f52-a31d-314cd1db2d68",
+     "label": ".020 Styrene 16x16",
+     "size": [
+      16,
+      16
+     ],
+     "price": 23.09,
+     "quote": false
+    },
+    {
+     "id": "d5284d4e-bc2b-4633-89de-2d76a3c3398f",
+     "label": ".020 Styrene 12X24",
+     "size": [
+      12,
+      24
+     ],
+     "price": 23.09,
+     "quote": false
+    },
+    {
+     "id": "f870011d-64a7-4666-806b-cbc9e1961c07",
+     "label": ".020 Styrene 16x24",
+     "size": [
+      16,
+      24
+     ],
+     "price": 23.09,
+     "quote": false
+    },
+    {
+     "id": "d5ec4174-4a3b-4ad6-aa31-a37cf0952da3",
+     "label": ".020 Styrene 18x24",
+     "size": [
+      18,
+      24
+     ],
+     "price": 23.09,
+     "quote": false
+    },
+    {
+     "id": "bc2733d4-f10e-4d89-a03f-b15f7d336d14",
+     "label": ".020 Styrene 24x24",
+     "size": [
+      24,
+      24
+     ],
+     "price": 23.19,
+     "quote": false
+    },
+    {
+     "id": "74be827a-5819-4cb2-ab6d-836f76e0fbc6",
+     "label": ".020 Styrene 24x32",
+     "size": [
+      24,
+      32
+     ],
+     "price": 26.56,
+     "quote": false
+    },
+    {
+     "id": "6cf2fa08-c304-4750-ac6d-b51ab4b17a64",
+     "label": ".020 Styrene 24x36",
+     "size": [
+      24,
+      36
+     ],
+     "price": 31.11,
+     "quote": false
+    },
+    {
+     "id": "076a5eaa-c0dd-4c61-a308-e17eefc47c1f",
+     "label": ".020 Styrene 24x48",
+     "size": [
+      24,
+      48
+     ],
+     "price": 35.5,
+     "quote": false
+    },
+    {
+     "id": "8ab4e52d-2bca-4877-8845-fcb48c7a5120",
+     "label": ".020 Styrene 32x48",
+     "size": [
+      32,
+      48
+     ],
+     "price": 37.86,
+     "quote": false
+    },
+    {
+     "id": "3cf2380d-bebd-48a0-972a-d925c86341e3",
+     "label": ".020 Styrene 48x48",
+     "size": [
+      48,
+      48
+     ],
+     "price": 51.06,
+     "quote": false
+    },
+    {
+     "id": "f66661ef-2f9c-4720-9d9b-02a2894b36aa",
+     "label": ".020 Styrene 36x72",
+     "size": [
+      36,
+      72
+     ],
+     "price": 71.84,
+     "quote": false
+    },
+    {
+     "id": "85c1904f-54f7-4b56-b395-65b8c9fdc809",
+     "label": ".020 Styrene 36x96",
+     "size": [
+      36,
+      96
+     ],
+     "price": 86.22,
+     "quote": false
+    },
+    {
+     "id": "4bdf28ee-7041-48c5-aec3-130b141172f3",
+     "label": ".020 Styrene 48x72",
+     "size": [
+      48,
+      72
+     ],
+     "price": 80.76,
+     "quote": false
+    },
+    {
+     "id": "a59f55eb-d83f-4b25-93a9-0cb8d84cee02",
+     "label": ".020 Styrene 48x96",
+     "size": [
+      48,
+      96
+     ],
+     "price": 93.78,
+     "quote": false
+    }
+   ],
+   "options": [
+    {
+     "label": "Single Or Double Sided",
+     "choices": [
+      "Two Sided",
+      "One Sided"
+     ]
+    },
+    {
+     "label": "Add Grommets",
+     "choices": [
+      "1 Grommet",
+      "Grommets Top 2 Corners",
+      "Grommets All 4 Corners"
+     ]
+    },
+    {
+     "label": "Production 3 to 5 Working Days-Select Rush Options Below",
+     "choices": [
+      "Next Day 24 Hr Rush (up to 100 pieces) Call to Confirm",
+      "SAME Day 6 Hr Rush -End Of Day Call Before you order.",
+      "3 Hr Rush up to 10 pieces - Must Call to confirm ."
+     ]
+    },
+    {
+     "label": "Cut to Shape",
+     "choices": [
+      "Simple Contour Cut to Shape -Circles Heart Ovals",
+      "Complex Contour Cut to Shape"
+     ]
+    },
+    {
+     "label": "Drill Holes",
+     "choices": [
+      "1 Hole Drilled",
+      "2 Holes Drilled",
+      "3 Holes Drilled",
+      "4 Holes Drilled",
+      "5 Holes Drilled",
+      "6 Holes Drilled"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "styrene-030",
+   "name": ".030 Styrene",
+   "category": "RIGID",
+   "subcategory": "STYRENE",
+   "variants": [
+    {
+     "id": "2c3cca41-a209-4858-bfb6-54e09fae7c45",
+     "label": ".030 Styrene 12\" x12\"",
+     "size": [
+      12,
+      12
+     ],
+     "price": 24.39,
+     "quote": false
+    },
+    {
+     "id": "328184dd-ee19-4951-acb7-d8f1fc5db13e",
+     "label": ".030 Styrene 12x16",
+     "size": [
+      12,
+      16
+     ],
+     "price": 24.65,
+     "quote": false
+    },
+    {
+     "id": "fc82d687-37dc-4613-bb21-2cd60d39722d",
+     "label": ".030 Styrene 12x18",
+     "size": [
+      12,
+      18
+     ],
+     "price": 24.91,
+     "quote": false
+    },
+    {
+     "id": "40e0d7e1-6424-44cd-909f-2da803bada20",
+     "label": ".030 Styrene 16x16\"",
+     "size": [
+      16,
+      16
+     ],
+     "price": 25.35,
+     "quote": false
+    },
+    {
+     "id": "79f10a00-bf37-423e-900e-f28ae5d9579d",
+     "label": ".030 Styrene 12\"x24\"",
+     "size": [
+      12,
+      24
+     ],
+     "price": 25.35,
+     "quote": false
+    },
+    {
+     "id": "538392ae-30b9-4bb0-b21c-404ab99908dc",
+     "label": ".030 Styrene 16x24",
+     "size": [
+      16,
+      24
+     ],
+     "price": 25.35,
+     "quote": false
+    },
+    {
+     "id": "a4666742-1133-454d-8653-f373494c1657",
+     "label": ".030 Styrene 18x24",
+     "size": [
+      18,
+      24
+     ],
+     "price": 25.35,
+     "quote": false
+    },
+    {
+     "id": "7ee79c21-dc76-4ddd-af31-a34f1c37ff5a",
+     "label": ".030 Styrene 24x24",
+     "size": [
+      24,
+      24
+     ],
+     "price": 27.3,
+     "quote": false
+    },
+    {
+     "id": "23bc1628-b2fe-4643-a815-f44a5daea96a",
+     "label": ".030 Styrene 24x32",
+     "size": [
+      24,
+      32
+     ],
+     "price": 28.21,
+     "quote": false
+    },
+    {
+     "id": "4c17c479-a68e-420e-869d-5f1e35a9e418",
+     "label": ".030 Styrene 24x36",
+     "size": [
+      24,
+      36
+     ],
+     "price": 29.94,
+     "quote": false
+    },
+    {
+     "id": "8dd63624-2692-4e6e-a2cd-c3fec3dffc7c",
+     "label": ".030 Styrene 24x48",
+     "size": [
+      24,
+      48
+     ],
+     "price": 31.4,
+     "quote": false
+    },
+    {
+     "id": "6096f047-d82d-4f06-8251-faedada21a8a",
+     "label": ".030 Styrene 32x48",
+     "size": [
+      32,
+      48
+     ],
+     "price": 36.19,
+     "quote": false
+    },
+    {
+     "id": "7d6ef47e-5dfd-4eb4-adbf-c4fd6c40282f",
+     "label": ".030 Styrene 24\" x72\"",
+     "size": [
+      24,
+      72
+     ],
+     "price": 47.41,
+     "quote": false
+    },
+    {
+     "id": "ba66fc64-ccbb-44b2-877f-3de5198443fe",
+     "label": ".030 Styrene 36x48",
+     "size": [
+      36,
+      48
+     ],
+     "price": 44.12,
+     "quote": false
+    },
+    {
+     "id": "8224180a-4276-44c7-ba8d-39b67f503f4d",
+     "label": ".030 Styrene 48x48",
+     "size": [
+      48,
+      48
+     ],
+     "price": 44.88,
+     "quote": false
+    },
+    {
+     "id": "edb19090-c179-462f-8b5a-26ed9f36480c",
+     "label": ".030 Styrene 36x72",
+     "size": [
+      36,
+      72
+     ],
+     "price": 72.32,
+     "quote": false
+    },
+    {
+     "id": "ace76ad6-b659-4a28-9012-9e3db9cdf7e5",
+     "label": ".030 Styrene 36x96",
+     "size": [
+      36,
+      96
+     ],
+     "price": 76.87,
+     "quote": false
+    },
+    {
+     "id": "22953de9-fb86-4808-91b2-c8cfd40affef",
+     "label": ".030 Styrene 48x72",
+     "size": [
+      48,
+      72
+     ],
+     "price": 76.61,
+     "quote": false
+    },
+    {
+     "id": "32385feb-19be-4872-afd0-49afb66090b8",
+     "label": ".030 Styrene 48x96",
+     "size": [
+      48,
+      96
+     ],
+     "price": 78.03,
+     "quote": false
+    }
+   ],
+   "options": [
+    {
+     "label": "Single Or Double Sided",
+     "choices": [
+      "One Sided",
+      "Two Sided"
+     ]
+    },
+    {
+     "label": "Add Grommets",
+     "choices": [
+      "1 Grommet",
+      "Grommets Top 2 Corners",
+      "Grommets All 4 Corners"
+     ]
+    },
+    {
+     "label": "Production 3 to 5 Working Days-Select Rush Options Below",
+     "choices": [
+      "Next Day 24 Hr Rush (up to 100 pieces) Call to Confirm",
+      "SAME Day 6 Hr Rush -End Of Day Call Before you order.",
+      "3 Hr Rush up to 10 pieces - Must Call to confirm ."
+     ]
+    },
+    {
+     "label": "Cut to Shape",
+     "choices": [
+      "Simple Contour Cut to Shape -Circles Heart Ovals",
+      "Complex Contour Cut to Shape"
+     ]
+    },
+    {
+     "label": "Drill Holes",
+     "choices": [
+      "1 Hole Drilled",
+      "2 Holes Drilled",
+      "3 Holes Drilled",
+      "4 Holes Drilled",
+      "5 Holes Drilled",
+      "6 Holes Drilled"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "blockout-vinyl-grey-adhesive",
+   "name": "Blockout Vinyl Grey Adhesive",
+   "category": "ADHESIVES & CLINGS",
+   "subcategory": "ADHESIVE VINYLS",
+   "variants": [
+    {
+     "id": "c8d573c0-1b0f-4c11-91bc-943d79bdb255",
+     "label": "Blockout Vinyl Grey Adhesive",
+     "size": null,
+     "price": 19.6,
+     "quote": false
+    }
+   ],
+   "options": [
+    {
+     "label": "Printing One Side",
+     "choices": [
+      "Full Colour On White Vinyl"
+     ]
+    },
+    {
+     "label": "Lamination",
+     "choices": [
+      "Matt Lamination",
+      "Gloss Lamination",
+      "Dry Erase Lamination -Re Writeable"
+     ]
+    },
+    {
+     "label": "Cut to Shape",
+     "choices": [
+      "Simple Vinyl Cutting- small",
+      "Wide Format VINYL Cutting - Simple"
+     ]
+    },
+    {
+     "label": "Production Time 3-4 Business Days",
+     "choices": [
+      "Next Day 24 Hr Rush (up to 10 pieces) Call to Confirm",
+      "12 hrs RUSH Pick Up (upto 10 pieces)Call Before you order.",
+      "6 Business hrs RUSH(upto 10 pieces) Call Before you order."
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "styrene-060",
+   "name": ".060 Styrene",
+   "category": "RIGID",
+   "subcategory": "STYRENE",
+   "variants": [
+    {
+     "id": "ed6a85c9-9b60-4288-8803-335abb193318",
+     "label": ".060 Styrene 6\" x 6\"",
+     "size": [
+      6,
+      6
+     ],
+     "price": 20.09,
+     "quote": false
+    },
+    {
+     "id": "714b60cb-c1a6-4e9f-bb8f-219001cebe0d",
+     "label": ".060 Styrene 12\" x12\"",
+     "size": [
+      12,
+      12
+     ],
+     "price": 32.5,
+     "quote": false
+    },
+    {
+     "id": "2de5759b-394d-4a0c-8e42-78c36d08d13f",
+     "label": ".060 Styrene 12\" x16\"",
+     "size": [
+      12,
+      16
+     ],
+     "price": 32.5,
+     "quote": false
+    },
+    {
+     "id": "689330a0-dd6c-4ca1-bc88-50ba0ace6954",
+     "label": ".060 Styrene 12\" x18\"",
+     "size": [
+      12,
+      18
+     ],
+     "price": 32.5,
+     "quote": false
+    },
+    {
+     "id": "efe45033-2db6-4a74-af59-f3bb4022ba09",
+     "label": ".060 Styrene 16\" x16\"",
+     "size": [
+      16,
+      16
+     ],
+     "price": 32.5,
+     "quote": false
+    },
+    {
+     "id": "1d0e5d43-43f3-4400-98b0-f8e9509a28bb",
+     "label": ".060 Styrene 12\" x24\"",
+     "size": [
+      12,
+      24
+     ],
+     "price": 32.5,
+     "quote": false
+    },
+    {
+     "id": "c167ba3c-2a92-4d95-905e-16519cc832d3",
+     "label": ".060 Styrene 16\" x24\"",
+     "size": [
+      16,
+      24
+     ],
+     "price": 32.5,
+     "quote": false
+    },
+    {
+     "id": "36b762a1-a1a3-4167-9e8b-0366a3719210",
+     "label": ".060 Styrene 18\" x24\"",
+     "size": [
+      18,
+      24
+     ],
+     "price": 32.5,
+     "quote": false
+    },
+    {
+     "id": "e6b3dc4b-b2c5-42cf-86b0-85ef27ad4a33",
+     "label": ".060 Styrene 24\" x24\"",
+     "size": [
+      24,
+      24
+     ],
+     "price": 32.5,
+     "quote": false
+    },
+    {
+     "id": "541f1ba2-0c93-441d-a138-2be8a92a2628",
+     "label": ".060 Styrene 24\" x32\"",
+     "size": [
+      24,
+      32
+     ],
+     "price": 40.63,
+     "quote": false
+    },
+    {
+     "id": "8db48f3e-a782-4e4a-ac6b-835397ee27b8",
+     "label": ".060 Styrene 24\" x36\"",
+     "size": [
+      24,
+      36
+     ],
+     "price": 40.63,
+     "quote": false
+    },
+    {
+     "id": "6b603ac0-2932-4ce1-b4aa-853022f9436f",
+     "label": ".060 Styrene 24\" x48\"",
+     "size": [
+      24,
+      48
+     ],
+     "price": 40.63,
+     "quote": false
+    },
+    {
+     "id": "157bf465-4754-467d-9dc4-b6d7c58ca70e",
+     "label": ".060 Styrene 32\" x48\"",
+     "size": [
+      32,
+      48
+     ],
+     "price": 54.44,
+     "quote": false
+    },
+    {
+     "id": "82083d6d-8e7f-43bf-b2b5-9b9233de0eab",
+     "label": ".060 Styrene 24\" x72\"",
+     "size": [
+      24,
+      72
+     ],
+     "price": 68.25,
+     "quote": false
+    },
+    {
+     "id": "d4fbef90-f567-4819-9724-4a24b8007747",
+     "label": ".060 Styrene 36\" x48\"",
+     "size": [
+      36,
+      48
+     ],
+     "price": 68.25,
+     "quote": false
+    },
+    {
+     "id": "0facb243-e088-4b07-b388-f84c4880ca30",
+     "label": ".060 Styrene 48\" x48\"",
+     "size": [
+      48,
+      48
+     ],
+     "price": 53.63,
+     "quote": false
+    },
+    {
+     "id": "251ba9f7-3195-41ac-b847-88c376ef55dd",
+     "label": ".060 Styrene 36\" x72\"",
+     "size": [
+      36,
+      72
+     ],
+     "price": 53.63,
+     "quote": false
+    },
+    {
+     "id": "9b4ada73-c0ac-4544-9e28-439f6a4918ca",
+     "label": ".060 Styrene 36\" x96\"",
+     "size": [
+      36,
+      96
+     ],
+     "price": 53.63,
+     "quote": false
+    },
+    {
+     "id": "7aa8ad21-ae4e-43d9-b2ec-ed7c1bd34ad7",
+     "label": ".060 Styrene 48\" x72\"",
+     "size": [
+      48,
+      72
+     ],
+     "price": 53.63,
+     "quote": false
+    },
+    {
+     "id": "96269f9c-22f7-42fc-aed0-9c296ef5f2f6",
+     "label": ".060 Styrene 48\" x96\"",
+     "size": [
+      48,
+      96
+     ],
+     "price": 117,
+     "quote": false
+    }
+   ],
+   "options": [
+    {
+     "label": "Single Or Double Sided",
+     "choices": [
+      "One Sided",
+      "Two Sided"
+     ]
+    },
+    {
+     "label": "Add Grommets",
+     "choices": [
+      "1 Grommet",
+      "Grommets Top 2 Corners",
+      "Grommets All 4 Corners"
+     ]
+    },
+    {
+     "label": "Single Sided Lamination",
+     "choices": [
+      "Matte Lamination 12X12 1 side",
+      "Gloss Lamination 12X12 1 side",
+      "Dry Erase Lamination -Re Writeable 12X12 1 side"
+     ]
+    },
+    {
+     "label": "Production 3 to 5 Working Days-Select Rush Options Below",
+     "choices": [
+      "Next Day 24 Hr Rush (up to 100 pieces) Call to Confirm",
+      "SAME Day 6 Hr Rush -End Of Day Call Before you order."
+     ]
+    },
+    {
+     "label": "Cut to Shape",
+     "choices": [
+      "Simple Contour Cut to Shape -Circles Heart Ovals+",
+      "Complex Contour Cut to Shape"
+     ]
+    },
+    {
+     "label": "Drill Holes",
+     "choices": [
+      "1 Hole Drilled",
+      "2 Holes Drilled",
+      "3 Holes Drilled",
+      "4 Holes Drilled",
+      "5 Holes Drilled",
+      "6 Holes Drilled"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "removable-white-vinyl-clear-adhesive",
+   "name": "Removable White Vinyl Clear Adhesive",
+   "category": "ADHESIVES & CLINGS",
+   "subcategory": "ADHESIVE VINYLS",
+   "variants": [
+    {
+     "id": "46915f35-46ba-4c9f-be09-65da6ecf1619",
+     "label": "Removable White Vinyl Clear Adhesive",
+     "size": null,
+     "price": 19.6,
+     "quote": false
+    }
+   ],
+   "options": [
+    {
+     "label": "Printing One Side",
+     "choices": [
+      "Full Colour On White Vinyl"
+     ]
+    },
+    {
+     "label": "Lamination",
+     "choices": [
+      "Matt Lamination"
+     ]
+    },
+    {
+     "label": "Cut to Shape",
+     "choices": [
+      "Simple Vinyl Cutting- small",
+      "Wide Format VINYL Cutting - Simple"
+     ]
+    },
+    {
+     "label": "Production time 3-4 Business Days",
+     "choices": [
+      "Next Day 24 Hr Rush (up to 10 pieces) Call to Confirm",
+      "12 hrs RUSH Pick Up (upto 10 pieces)Call Before you order.",
+      "6 Business hrs RUSH(upto 10 pieces) Call Before you order."
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "clear-vinyl",
+   "name": "Clear Vinyl",
+   "category": "ADHESIVES & CLINGS",
+   "subcategory": "ADHESIVE VINYLS",
+   "variants": [
+    {
+     "id": "f54d9f24-0cee-4f34-80bf-1828ff0fbfcd",
+     "label": "Clear Vinyl",
+     "size": null,
+     "price": 19.6,
+     "quote": false
+    }
+   ],
+   "options": [
+    {
+     "label": "Clear Vinyl Printed",
+     "choices": [
+      "FRONT Adhesive -One Side cmyk +white",
+      "One Side white +cmyk -BACK Adhesive",
+      "TWO Side cmyk +black+white +cmyk"
+     ]
+    },
+    {
+     "label": "Lamination",
+     "choices": [
+      "Matt Lamination",
+      "Gloss Lamination",
+      "Dry Erase Lamination -Re Writeable"
+     ]
+    },
+    {
+     "label": "Cut to Shape",
+     "choices": [
+      "Simple Vinyl Cutting- small",
+      "Wide Format VINYL Cutting - Simple"
+     ]
+    },
+    {
+     "label": "Production Time 3-4 Business Days",
+     "choices": [
+      "Next Day 24 Hr Rush (up to 10 pieces) Call to Confirm",
+      "12 hrs RUSH Pick Up (upto 10 pieces)Call Before you order.",
+      "6 Business hrs RUSH(upto 10 pieces) Call Before you order."
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "white-vinyl-clear-adhesive",
+   "name": "White Vinyl Clear Adhesive",
+   "category": "ADHESIVES & CLINGS",
+   "subcategory": "ADHESIVE VINYLS",
+   "variants": [
+    {
+     "id": "9b7fed1a-3c3a-4e67-915a-ddf471caf3c1",
+     "label": "White Vinyl Clear Adhesive",
+     "size": null,
+     "price": 19.6,
+     "quote": false
+    }
+   ],
+   "options": [
+    {
+     "label": "Printing One Side",
+     "choices": [
+      "Full Colour On White Vinyl"
+     ]
+    },
+    {
+     "label": "Lamination",
+     "choices": [
+      "Matt Lamination",
+      "Gloss Lamination",
+      "Dry Erase Lamination -Re Writeable"
+     ]
+    },
+    {
+     "label": "Cut to Shape",
+     "choices": [
+      "Simple Vinyl Cutting- small",
+      "Wide Format VINYL Cutting - Simple"
+     ]
+    },
+    {
+     "label": "Production Time 3-4 Business Days",
+     "choices": [
+      "Next Day 24 Hr Rush (up to 10 pieces) Call to Confirm",
+      "12 hrs RUSH Pick Up (upto 10 pieces)Call Before you order.",
+      "6 Business hrs RUSH(upto 10 pieces) Call Before you order."
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "hi-tack-vinyl-clear-adhesive",
+   "name": "HI TACK Vinyl CLEAR Adhesive",
+   "category": "ADHESIVES & CLINGS",
+   "subcategory": "ADHESIVE VINYLS",
+   "variants": [
+    {
+     "id": "9a96c141-3372-4b16-a2f0-0b8db32bcf31",
+     "label": "HI TACK Vinyl CLEAR Adhesive",
+     "size": null,
+     "price": 19.6,
+     "quote": false
+    }
+   ],
+   "options": [
+    {
+     "label": "Printing One Side",
+     "choices": [
+      "Full Colour On White Vinyl"
+     ]
+    },
+    {
+     "label": "Lamination",
+     "choices": [
+      "Matt Lamination"
+     ]
+    },
+    {
+     "label": "Cut to Shape",
+     "choices": [
+      "Simple Vinyl Cutting- small",
+      "Wide Format VINYL Cutting - Simple"
+     ]
+    },
+    {
+     "label": "Productin time 3-4 Business Days",
+     "choices": [
+      "Next Day 24 Hr Rush (up to 10 pieces) Call to Confirm",
+      "12 hrs RUSH Pick Up (upto 10 pieces)Call Before you order.",
+      "6 Business hrs RUSH(upto 10 pieces) Call Before you order."
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "optical-clear-vinyl",
+   "name": "Optical Clear Vinyl",
+   "category": "ADHESIVES & CLINGS",
+   "subcategory": "WINDOW GRAPHICS",
+   "variants": [
+    {
+     "id": "f8bbdb6d-4481-45fd-9662-937804a6ff69",
+     "label": "Optical Clear Vinyl",
+     "size": null,
+     "price": 19.6,
+     "quote": false
+    }
+   ],
+   "options": [
+    {
+     "label": "Single or Double sided Optical Clear Vinyl",
+     "choices": [
+      "FRONT Adhesive -One Side cmyk +white",
+      "One Side white +cmyk -BACK Adhesive",
+      "TWO Side cmyk +black+white +cmyk",
+      "White Ink ONLY ON CLEAR"
+     ]
+    },
+    {
+     "label": "Cut to Shape",
+     "choices": [
+      "Simple Vinyl Cutting- small",
+      "Wide Format VINYL Cutting - Simple"
+     ]
+    },
+    {
+     "label": "Production Time 3-4 Business Days",
+     "choices": [
+      "Next Day 24 Hr Rush (up to 10 pieces) Call to Confirm",
+      "12 hrs RUSH Pick Up (upto 10 pieces)Call Before you order.",
+      "6 Business hrs RUSH(upto 10 pieces) Call Before you order."
+     ]
+    },
+    {
+     "label": "Lamination",
+     "choices": [
+      "Optical Clear Lamination"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "white-static-cling",
+   "name": "White Static Cling",
+   "category": "ADHESIVES & CLINGS",
+   "subcategory": "WINDOW GRAPHICS",
+   "variants": [
+    {
+     "id": "61f2f250-4209-41cd-9994-80a517009583",
+     "label": "White Static Cling",
+     "size": null,
+     "price": 19.6,
+     "quote": false
+    }
+   ],
+   "options": [
+    {
+     "label": "Printing One Side",
+     "choices": [
+      "Full Colour On White Vinyl"
+     ]
+    },
+    {
+     "label": "Cut to Shape",
+     "choices": [
+      "Simple Vinyl Cutting- small",
+      "Wide Format VINYL Cutting - Simple"
+     ]
+    },
+    {
+     "label": "Production Time 3-4 Business Days",
+     "choices": [
+      "Next Day 24 Hr Rush (up to 10 pieces) Call to Confirm",
+      "12 hrs RUSH Pick Up (upto 10 pieces)Call Before you order.",
+      "6 Business hrs RUSH(upto 10 pieces) Call Before you order."
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "clear-static-cling",
+   "name": "Clear Static Cling",
+   "category": "ADHESIVES & CLINGS",
+   "subcategory": "WINDOW GRAPHICS",
+   "variants": [
+    {
+     "id": "8494218f-08b0-4bbc-af71-5fa970cd1d62",
+     "label": "Clear Static Cling",
+     "size": null,
+     "price": 19.6,
+     "quote": false
+    }
+   ],
+   "options": [
+    {
+     "label": "Clear Vinyl Printed",
+     "choices": [
+      "FRONT Adhesive -One Side cmyk +white",
+      "One Side white +cmyk -BACK Adhesive",
+      "TWO Side cmyk +black+white +cmyk",
+      "White Ink ONLY ON CLEAR"
+     ]
+    },
+    {
+     "label": "Cut to Shape",
+     "choices": [
+      "Simple Vinyl Cutting- small",
+      "Wide Format VINYL Cutting - Simple"
+     ]
+    },
+    {
+     "label": "Production Time 3-4 Business Days",
+     "choices": [
+      "Next Day 24 Hr Rush (up to 10 pieces) Call to Confirm",
+      "12 hrs RUSH Pick Up (upto 10 pieces)Call Before you order.",
+      "6 Business hrs RUSH(upto 10 pieces) Call Before you order."
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "fabric-banners",
+   "name": "Fabric Banners",
+   "category": "BANNERS",
+   "subcategory": "FABRIC BANNERS",
+   "variants": [
+    {
+     "id": "c32d5984-4286-446e-be15-433e1804d9a1",
+     "label": "Fabric Banners",
+     "size": null,
+     "price": 97.5,
+     "quote": false
+    }
+   ],
+   "options": [
+    {
+     "label": "Samba Fabric Banner Single sided print",
+     "choices": [
+      "ONE SIDED"
+     ]
+    },
+    {
+     "label": "Add Grommets",
+     "choices": [
+      "No - please choose",
+      "Grommets Top 2 Corners",
+      "Grommets every 2 to 3 feet All Around",
+      "Grommets All 4 Corners",
+      "Grommets every 12 to 18 \" All Around"
+     ]
+    },
+    {
+     "label": "Hemming or Trim only",
+     "choices": [
+      "Trim Only",
+      "Tape Hem Only Left & Right",
+      "Tape Heming 4 Sides",
+      "Tape Hem Only Top & Bottom",
+      "Sewn Hem 4 Sides"
+     ]
+    },
+    {
+     "label": "Sleeve Pockets",
+     "choices": [
+      "Sleeve Pocket - 4\" Top ONLY",
+      "Sleeve Pockets - 4\"Top & Bottom"
+     ]
+    },
+    {
+     "label": "Production Time is 3 to 4 Business Days-Select Rush Options",
+     "choices": [
+      "Next Day Pickup - Banner Min 24 hours Call Before you order",
+      "6 Business hrs RUSH Call Before you order."
+     ]
+    },
+    {
+     "label": "VERSIONS- UP TO 5 CHANGES- call for more changes",
+     "choices": [
+      "1 Additional art",
+      "2 Additional art",
+      "3 Additional art",
+      "4 Additional art",
+      "5 Additional art",
+      "6 Additional art",
+      "7 Additional art",
+      "8 Additional art",
+      "9 Additional art",
+      "10 Additional art"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "large-mesh-banner",
+   "name": "LARGE Mesh Banner",
+   "category": "BANNERS",
+   "subcategory": "MESH BANNERS",
+   "variants": [
+    {
+     "id": "19b0633f-3bc3-4ac1-bf92-a5e1a0fc2506",
+     "label": "LARGE Mesh Banner",
+     "size": null,
+     "price": 68.56,
+     "quote": false
+    }
+   ],
+   "options": [
+    {
+     "label": "Single sided print",
+     "choices": [
+      "ONE SIDED"
+     ]
+    },
+    {
+     "label": "Add Grommets",
+     "choices": [
+      "Grommets Top 2 Corners",
+      "Grommets every 2 to 3 feet All Around",
+      "Grommets All 4 Corners",
+      "Grommets every 12 to 18 \" All Around"
+     ]
+    },
+    {
+     "label": "Hemming or Trim only",
+     "choices": [
+      "Trim Only",
+      "Tape Heming 4 Sides",
+      "Sewn Hem 4 Sides",
+      "18 oz Tape Reinforced + Double Sewing - Hemming 4 Sides"
+     ]
+    },
+    {
+     "label": "Production Time is 4 Business Days-Select Rush Options",
+     "choices": [
+      "Next Day Pickup - Banner Min 24 hours Call Before you order"
+     ]
+    },
+    {
+     "label": "VERSIONS- UP TO 5 CHANGES- call for more changes",
+     "choices": [
+      "1 Additional art",
+      "2 Additional art",
+      "3 Additional art",
+      "4 Additional art",
+      "5 Additional art",
+      "6 Additional art",
+      "7 Additional art",
+      "8 Additional art",
+      "9 Additional art",
+      "10 Additional art"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "small-narrow-mesh-banner",
+   "name": "SMALL - Narrow MESH Banner",
+   "category": "BANNERS",
+   "subcategory": "MESH BANNERS",
+   "variants": [
+    {
+     "id": "21b6a66b-67f1-4a6d-b488-f3989f6ef1ab",
+     "label": "SMALL - Narrow MESH Banner",
+     "size": null,
+     "price": 32.5,
+     "quote": false
+    }
+   ],
+   "options": [
+    {
+     "label": "Single sided print",
+     "choices": [
+      "ONE SIDED"
+     ]
+    },
+    {
+     "label": "Add Grommets",
+     "choices": [
+      "Grommets Top 2 Corners",
+      "Grommets every 2 to 3 feet All Around",
+      "Grommets All 4 Corners",
+      "Grommets every 12 to 18 \" All Around"
+     ]
+    },
+    {
+     "label": "Hemming or Trim only",
+     "choices": [
+      "Trim Only",
+      "Tape Heming 4 Sides",
+      "18 oz Tape Reinforced + Double Sewing - Hemming 4 Sides",
+      "Sewn Hem 4 Sides"
+     ]
+    },
+    {
+     "label": "Production Time is 4 Business Days",
+     "choices": [
+      "Next Day Pickup - Banner Min 24 hours Call Before you order",
+      "6 Business hrs RUSH Call Before you order."
+     ]
+    },
+    {
+     "label": "VERSIONS- UP TO 5 CHANGES- call for more changes",
+     "choices": [
+      "1 Additional art",
+      "2 Additional art",
+      "3 Additional art",
+      "4 Additional art",
+      "5 Additional art",
+      "6 Additional art",
+      "7 Additional art",
+      "8 Additional art",
+      "9 Additional art",
+      "10 Additional art"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "18oz-scrim-banners",
+   "name": "18oz Scrim Banners",
+   "category": "BANNERS",
+   "subcategory": "SCRIM VINYL BANNERS",
+   "variants": [
+    {
+     "id": "395f8dca-6a3e-4c1b-a8dc-2907c93f5b6d",
+     "label": "18oz Scrim Banners",
+     "size": null,
+     "price": 62.44,
+     "quote": false
+    }
+   ],
+   "options": [
+    {
+     "label": "Single or Double sided",
+     "choices": [
+      "ONE SIDED",
+      "banner 18 oz Double sided print"
+     ]
+    },
+    {
+     "label": "Add Grommets",
+     "choices": [
+      "Grommets Top 2 Corners",
+      "Grommets every 2 to 3 feet All Around",
+      "Grommets All 4 Corners",
+      "Grommets every 12 to 18 \" All Around"
+     ]
+    },
+    {
+     "label": "Hemming or Trim only",
+     "choices": [
+      "Trim Only",
+      "Sewn Hem 4 Sides",
+      "Sewn Hem Top & Bottom Only",
+      "18 oz Tape Reinforced + Double Sewing - Hemming 4 Sides",
+      "Tape Hem Only Left & Right",
+      "Tape Heming 4 Sides",
+      "Tape Hem Only Top & Bottom",
+      "Double - Sewn Hem 4 Sides"
+     ]
+    },
+    {
+     "label": "Wind Slits",
+     "choices": [
+      "Wind slits - Please position on art"
+     ]
+    },
+    {
+     "label": "Sleeve Pockets",
+     "choices": [
+      "Sleeve Pocket - 4\" Top ONLY",
+      "Sleeve Pockets - 4\"Top & Bottom"
+     ]
+    },
+    {
+     "label": "Production Time is 4 to 6 Business Days-Select Rush Options",
+     "choices": [
+      "24 Hr RUSH Pickup - CALL BEFORE ORDER",
+      "Two Day RUSH Pickup - CALL BEFORE ORDER"
+     ]
+    },
+    {
+     "label": "VERSIONS- UP TO 5 CHANGES- call for more changes",
+     "choices": [
+      "1 Additional art",
+      "2 Additional art",
+      "3 Additional art",
+      "4 Additional art",
+      "5 Additional art",
+      "6 Additional art",
+      "7 Additional art",
+      "8 Additional art",
+      "9 Additional art",
+      "10 Additional art"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "13oz-large-scrim-banner",
+   "name": "13oz Large Scrim Banner",
+   "category": "BANNERS",
+   "subcategory": "SCRIM VINYL BANNERS",
+   "variants": [
+    {
+     "id": "14cb0f9b-dac2-4fac-bb85-489d58d2987d",
+     "label": "13oz Large Scrim Banner",
+     "size": null,
+     "price": 60.75,
+     "quote": false
+    }
+   ],
+   "options": [
+    {
+     "label": "Single sided print",
+     "choices": [
+      "ONE SIDED"
+     ]
+    },
+    {
+     "label": "Add Grommets",
+     "choices": [
+      "Grommets Top 2 Corners",
+      "Grommets every 2 to 3 feet All Around",
+      "Grommets All 4 Corners",
+      "Grommets every 12 to 18 \" All Around"
+     ]
+    },
+    {
+     "label": "Hemming or Trim only",
+     "choices": [
+      "Trim Only",
+      "Tape Hem Only Left & Right",
+      "Tape Heming 4 Sides",
+      "Tape Hem Only Top & Bottom",
+      "Sewn Hem 4 Sides",
+      "Sewn Hem Top & Bottom Only",
+      "18 oz Tape Reinforced + Double Sewing - Hemming 4 Sides"
+     ]
+    },
+    {
+     "label": "Wind Slits",
+     "choices": [
+      "Wind slits - Please position on art"
+     ]
+    },
+    {
+     "label": "Sleeve Pockets",
+     "choices": [
+      "Sleeve Pockets - 4\"Top & Bottom",
+      "Sleeve Pocket - 4\" Top ONLY"
+     ]
+    },
+    {
+     "label": "Production Time is 3 to 4 Business Days-Select Rush Options",
+     "choices": [
+      "Next Day Pickup - Banner Min 24 hours Call Before you order",
+      "6 Business hrs RUSH Call Before you order."
+     ]
+    },
+    {
+     "label": "VERSIONS- UP TO 5 CHANGES- call for more changes",
+     "choices": [
+      "1 Additional art",
+      "2 Additional art",
+      "3 Additional art",
+      "4 Additional art",
+      "5 Additional art",
+      "6 Additional art",
+      "7 Additional art",
+      "8 Additional art",
+      "9 Additional art",
+      "10 Additional art"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "13-oz-smooth-banners",
+   "name": "13 oz Smooth Banners",
+   "category": "BANNERS",
+   "subcategory": "SMOOTH BANNERS",
+   "variants": [
+    {
+     "id": "def421c9-ddec-4edd-90ea-b50186af9ef7",
+     "label": "13 oz Smooth Banners",
+     "size": null,
+     "price": 45.5,
+     "quote": false
+    }
+   ],
+   "options": [
+    {
+     "label": "Single or Double sided",
+     "choices": [
+      "ONE SIDED"
+     ]
+    },
+    {
+     "label": "Add Grommets",
+     "choices": [
+      "No Grommets",
+      "Grommets Top 2 Corners",
+      "Grommets every 2 to 3 feet All Around",
+      "Grommets All 4 Corners",
+      "Grommets every 12 to 18 \" All Around"
+     ]
+    },
+    {
+     "label": "Hemming or Trim only",
+     "choices": [
+      "Trim Only",
+      "Tape Hem Only Left & Right",
+      "Tape Heming 4 Sides",
+      "Tape Hem Only Top & Bottom",
+      "Sewn Hem 4 Sides"
+     ]
+    },
+    {
+     "label": "Wind Slits",
+     "choices": [
+      "Wind slits - Please position on art"
+     ]
+    },
+    {
+     "label": "Sleeve Pockets",
+     "choices": [
+      "Sleeve Pocket - 4\" Top ONLY",
+      "Sleeve Pockets - 4\"Top & Bottom"
+     ]
+    },
+    {
+     "label": "Production Time is 3 to 4 Business Days-Select Rush Options",
+     "choices": [
+      "Next Day Pickup - Banner Min 24 hours Call Before you order",
+      "6 Business hrs RUSH Call Before you order."
+     ]
+    },
+    {
+     "label": "VERSIONS- UP TO 5 CHANGES- call for more changes",
+     "choices": [
+      "1 Additional art",
+      "2 Additional art",
+      "3 Additional art",
+      "4 Additional art",
+      "5 Additional art",
+      "6 Additional art",
+      "7 Additional art",
+      "8 Additional art",
+      "9 Additional art",
+      "10 Additional art"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "13oz-scrim-banner-specials",
+   "name": "13oz Scrim Banner SPECIALS",
+   "category": "BANNERS",
+   "subcategory": "SCRIM VINYL BANNERS",
+   "variants": [
+    {
+     "id": "96b1ad08-1596-4230-be2a-65cbc7ccb517",
+     "label": "13oz Scrim Banner SPECIALS",
+     "size": null,
+     "price": 26,
+     "quote": false
+    }
+   ],
+   "options": [
+    {
+     "label": "Single sided print",
+     "choices": [
+      "ONE SIDED",
+      "ONE SIDED"
+     ]
+    },
+    {
+     "label": "Add Grommets",
+     "choices": [
+      "Grommets Top 2 Corners",
+      "Grommets every 2 to 3 feet All Around",
+      "Grommets All 4 Corners",
+      "Grommets every 12 to 18 \" All Around"
+     ]
+    },
+    {
+     "label": "Hemming or Trim only",
+     "choices": [
+      "Trim Only",
+      "Tape Hem Only Left & Right",
+      "Tape Heming 4 Sides",
+      "Tape Hem Only Top & Bottom",
+      "Sewn Hem Top & Bottom Only",
+      "Sewn Hem 4 Sides",
+      "18 oz Tape Reinforced + Double Sewing - Hemming 4 Sides"
+     ]
+    },
+    {
+     "label": "Wind Slits",
+     "choices": [
+      "Wind slits - Please position on art"
+     ]
+    },
+    {
+     "label": "Sleeve Pocket",
+     "choices": [
+      "Sleeve Pockets - 4\"Top & Bottom",
+      "Sleeve Pocket - 4\" Top ONLY"
+     ]
+    },
+    {
+     "label": "Production Time is 3 to 5 Business Days",
+     "choices": [
+      "Next Day Pickup - Banner Min 24 hours Call Before you order",
+      "6 Business hrs RUSH Call Before you order."
+     ]
+    },
+    {
+     "label": "VERSIONS- UP TO 5 CHANGES- call for more changes",
+     "choices": [
+      "1 Additional art",
+      "2 Additional art",
+      "3 Additional art",
+      "4 Additional art",
+      "5 Additional art",
+      "6 Additional art",
+      "7 Additional art",
+      "8 Additional art",
+      "9 Additional art",
+      "10 Additional art"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "election-signs",
+   "name": "Election signs (screened 4mm coroplast)",
+   "category": "ELECTION SIGNS",
+   "subcategory": "16X24 SCREENED 4MM CORO",
+   "variants": [
+    {
+     "id": "4e1e503e-f67e-4299-95a0-807b635ca048",
+     "label": "16x24 Screened 4mm Coro",
+     "size": [
+      16,
+      24
+     ],
+     "price": 0,
+     "quote": true
+    },
+    {
+     "id": "6f0a1964-caa7-4d2f-a80d-ca25efa447ac",
+     "label": "24hx48 w Screened 4mm Coro",
+     "size": [
+      24,
+      48
+     ],
+     "price": 0,
+     "quote": true
+    },
+    {
+     "id": "3cb8650e-75e6-4a22-bb6e-6adb9fc81e92",
+     "label": "32hx48 w Screened 4mm Coro",
+     "size": [
+      32,
+      48
+     ],
+     "price": 0,
+     "quote": true
+    }
+   ],
+   "options": [
+    {
+     "label": "Single or Double Sided - Same Art",
+     "choices": [
+      "One Colour DOUBLE sided same art"
+     ]
+    },
+    {
+     "label": "Production Time is 8 to 9 Business Days-Select Rush Options",
+     "choices": [
+      "Production 8 to 9days until further notice"
+     ]
+    }
+   ]
+  }
+ ],
+ "categories": {
+  "RIGID": [
+   "alupanel-3mm",
+   "coroplast-4mm",
+   "coroplast-6mm",
+   "coroplast-10mm",
+   "foam-board",
+   "pvc-12mm",
+   "pvc-10mm",
+   "petg-020",
+   "petg-040",
+   "pvc-3mm",
+   "pvc-6mm",
+   "styrene-020",
+   "styrene-030",
+   "styrene-060"
+  ],
+  "ADHESIVES & CLINGS": [
+   "blockout-vinyl-grey-adhesive",
+   "removable-white-vinyl-clear-adhesive",
+   "clear-vinyl",
+   "white-vinyl-clear-adhesive",
+   "hi-tack-vinyl-clear-adhesive",
+   "optical-clear-vinyl",
+   "white-static-cling",
+   "clear-static-cling"
+  ],
+  "BANNERS": [
+   "fabric-banners",
+   "large-mesh-banner",
+   "small-narrow-mesh-banner",
+   "18oz-scrim-banners",
+   "13oz-large-scrim-banner",
+   "13-oz-smooth-banners",
+   "13oz-scrim-banner-specials"
+  ],
+  "ELECTION SIGNS": [
+   "election-signs"
+  ]
+ }
+}
