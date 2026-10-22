@@ -51,7 +51,7 @@ function layout(ctx, { title, body, bodyClass = '', description = '' }) {
     <div><p class="foot-h">Ordering</p><a href="/help">Help and artwork specs</a><a href="/delivery">Delivery and pickup</a><a href="/account">Your orders</a><a href="/contact">Contact</a></div>
     <div><p class="foot-h">Company</p><a href="/about">About</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a></div>
   </div>
-  <div class="wrap foot-base"><span>© ${new Date().getFullYear()} ${esc(config.brand.name)} · Prices in CAD, HST added at checkout.</span><span class="pay-marks" aria-label="Accepted payments">Visa · Mastercard · Amex · Interac</span></div>
+  <div class="wrap foot-base"><span>© ${new Date().getFullYear()} ${esc(config.brand.name)} · Prices in CAD, HST added at checkout.</span><span class="pay-marks" aria-label="Accepted payments">Visa · Mastercard · Amex · Interac</span><span>Photos: Pexels</span></div>
 </footer>
 <script src="/app.js" nonce="${esc(nonce)}" defer></script>
 </body>
@@ -59,9 +59,9 @@ function layout(ctx, { title, body, bodyClass = '', description = '' }) {
 }
 
 /* ---------- Pieces ---------- */
-function tile(href, title, blurb, texture, priceNote, extra = '') {
+function tile(href, title, blurb, texture, priceNote, extra = '', photo = null) {
   return `<a class="tile" href="${esc(href)}">
-    <span class="tile-art tex-${esc(texture)}" aria-hidden="true"><span class="tile-sign"></span></span>
+    <span class="tile-art tex-${esc(texture)}" aria-hidden="true">${photo ? `<img src="${esc(photo)}" alt="" loading="lazy" decoding="async">` : '<span class="tile-sign"></span>'}</span>
     <span class="tile-body"><span class="tile-title">${esc(title)}</span><span class="tile-blurb">${esc(blurb)}</span>${extra}<span class="tile-price">${esc(priceNote)}</span></span>
   </a>`;
 }
@@ -79,11 +79,11 @@ function home(ctx) {
   const cats = catalog.CATEGORIES.map((c) => {
     const cat = catalog.category(c.slug);
     const min = Math.min(...cat.groups.filter((g) => g.minPrice > 0).map((g) => g.minPrice));
-    return tile(`/c/${c.slug}`, c.title, c.short, c.texture, Number.isFinite(min) ? `From ${money(min)}` : 'Quoted per order');
+    return tile(`/c/${c.slug}`, c.title, c.short, c.texture, Number.isFinite(min) ? `From ${money(min)}` : 'Quoted per order', '', c.photo ? `/img/photos/pexels-${c.photo}.jpg` : null);
   }).join('');
   const popular = ['coroplast-4mm', 'pvc-3mm', '13oz-large-scrim-banner', 'white-vinyl-clear-adhesive', 'alupanel-3mm', 'foam-board']
     .map((s) => catalog.family(s)).filter(Boolean)
-    .map((f) => tile(`/p/${f.slug}`, f.title, f.blurb, f.texture, priceNote(f.minPrice, f.quoteOnly))).join('');
+    .map((f) => tile(`/p/${f.slug}`, f.title, f.blurb, f.texture, priceNote(f.minPrice, f.quoteOnly), '', f.photo)).join('');
   const body = `
 <section class="hero">
   <div class="hero-copy">
@@ -91,13 +91,13 @@ function home(ctx) {
     <p>The same boards, vinyl and banner stock the trade buys, priced per piece so a business can order one or one hundred. 279 stock sizes, every one priced before you log in. Printed in Mississauga, shipped across Ontario, or picked up free.</p>
     <div class="hero-actions"><a class="btn" href="/c/rigid-boards">Browse rigid boards</a><a class="btn btn-ghost" href="/help#artwork">Artwork specs</a></div>
   </div>
-  <div class="hero-swatches" aria-hidden="true">
-    <div class="swatch tex-coroplast"><span>Coroplast</span></div>
-    <div class="swatch tex-aluminum"><span>Alupanel</span></div>
-    <div class="swatch tex-pvc"><span>PVC</span></div>
-    <div class="swatch tex-banner"><span>Scrim banner</span></div>
-    <div class="swatch tex-clear"><span>Clear PETG</span></div>
-    <div class="swatch tex-vinyl"><span>Vinyl</span></div>
+  <div class="hero-visual">
+    <img class="hero-photo" src="/img/photos/pexels-40241484.jpg" alt="Sheets coming off a large-format flatbed press" width="1600" height="1067" fetchpriority="high">
+    <div class="hero-swatches" aria-hidden="true">
+      <div class="swatch tex-coroplast"><span>Coroplast</span></div>
+      <div class="swatch tex-aluminum"><span>Alupanel</span></div>
+      <div class="swatch tex-vinyl"><span>Vinyl</span></div>
+    </div>
   </div>
 </section>
 <section class="section">
@@ -123,7 +123,7 @@ function home(ctx) {
 function category(ctx, cat) {
   const tiles = cat.groups.map((g) => {
     const extra = g.families.length > 1 ? `<span class="tile-sub">${g.families.map((f) => `<span>${esc(f.title)}</span>`).join('')}</span>` : '';
-    return tile(`/p/${g.families[0].slug}`, g.title, g.blurb, g.texture, priceNote(g.minPrice, g.quoteOnly), extra);
+    return tile(`/p/${g.families[0].slug}`, g.title, g.blurb, g.texture, priceNote(g.minPrice, g.quoteOnly), extra, g.photo);
   }).join('');
   const body = `${crumbs([{ label: 'Home', href: '/' }, { label: cat.title }])}
 <header class="page-head"><h1>${esc(cat.title)}</h1><p class="lede">${esc(cat.blurb)}</p></header>
@@ -145,6 +145,7 @@ function product(ctx, fam) {
   const body = `${crumbs([{ label: 'Home', href: '/' }, { label: cat.title, href: `/c/${cat.slug}` }, { label: fam.title }])}
 <article class="product" data-family="${esc(fam.slug)}" data-quote-only="${fam.quoteOnly ? 1 : 0}">
   <div class="product-visual">
+    ${fam.photo ? `<figure class="product-photo"><img src="${esc(fam.photo)}" alt="${esc(fam.title)} in use" loading="eager" decoding="async"></figure>` : ''}
     <div class="preview tex-${esc(fam.texture)}" id="preview" aria-label="Size preview"><svg id="preview-svg" viewBox="0 0 400 400" role="img" aria-label="Scale preview of the selected size"></svg></div>
     <p class="preview-note">Drawn to scale against a 4 × 8 ft sheet. Not a proof.</p>
     ${siblings.length ? `<div class="siblings"><span>Also in ${esc(fam.group)}:</span>${siblings.map((f) => (f.slug === fam.slug ? `<strong>${esc(f.title)}</strong>` : `<a href="/p/${f.slug}">${esc(f.title)}</a>`)).join('')}</div>` : ''}
@@ -181,7 +182,7 @@ function searchPage(ctx, q, results) {
   const body = `${crumbs([{ label: 'Home', href: '/' }, { label: 'Search' }])}
 <header class="page-head"><h1>${results.length ? `${results.length} result${results.length === 1 ? '' : 's'} for “${esc(q)}”` : `Nothing matched “${esc(q)}”`}</h1>
 ${results.length ? '' : '<p class="lede">Try a material (coroplast, PVC, vinyl, banner) or a use (lawn sign, window). Or browse the four categories above.</p>'}</header>
-<div class="tiles tiles-3">${results.map((f) => tile(`/p/${f.slug}`, f.title, f.blurb, f.texture, priceNote(f.minPrice, f.quoteOnly))).join('')}</div>`;
+<div class="tiles tiles-3">${results.map((f) => tile(`/p/${f.slug}`, f.title, f.blurb, f.texture, priceNote(f.minPrice, f.quoteOnly), '', f.photo)).join('')}</div>`;
   return layout(ctx, { title: `Search: ${q}`, body });
 }
 

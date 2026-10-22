@@ -19,6 +19,7 @@ const families = generated.families.map((f) => {
     uses: m.uses || [],
     leadTime: m.leadTime || '4 to 5 business days',
     texture: m.texture || 'plain',
+    photo: m.photo ? `/img/photos/pexels-${m.photo}.jpg` : null,
     categorySlug: meta.categorySlugFor[f.category],
     group: m.group || null, // e.g. "Coroplast" groups 4/6/10mm families on category pages
     minPrice: Math.min(...f.variants.filter((v) => v.price > 0).map((v) => v.price), Infinity),
@@ -42,7 +43,7 @@ function category(slug) {
   for (const f of items) {
     const key = f.group || f.slug;
     if (!seen.has(key)) {
-      const g = { key, title: f.group || f.title, texture: f.texture, families: [], blurb: f.group ? (meta.groups[f.group] || '') : f.blurb, minPrice: Infinity, quoteOnly: true };
+      const g = { key, title: f.group || f.title, texture: f.texture, photo: f.photo, families: [], blurb: f.group ? (meta.groups[f.group] || '') : f.blurb, minPrice: Infinity, quoteOnly: true };
       seen.set(key, g); groups.push(g);
     }
     const g = seen.get(key);

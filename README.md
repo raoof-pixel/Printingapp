@@ -68,6 +68,10 @@ npm test
 - `tests/unit.test.js` — pricing math and markup for every captured wholesale item, option tampering, hashing, signing, escaping.
 - `tests/e2e.test.js` — boots the server on a throwaway data directory and drives a real Chromium through 36 scenarios: headers, path traversal, CSRF, oversized bodies, browsing, configuring, cart maths, tampered carts, registration validation, lockout, artwork upload (bad file types rejected), checkout validation, order placement, simulated payment, cross-user access, contact form, mobile overflow, rate limiting, and a zero-console-error check. Screenshots land in `tests/screenshots/`. Needs Playwright (`npm i -g playwright && npx playwright install chromium`) if not already available.
 
+## Photos
+
+Product and hero photography is from [Pexels](https://www.pexels.com/license/) (free for commercial use, no attribution required). Files live in `public/img/photos/pexels-<id>.jpg`; the id maps to `https://www.pexels.com/photo/<id>/`. Swap any photo by changing the `photo` field in `data/catalog-meta.js`.
+
 ## Customising
 
 - **Brand name, phone, email, address**: `src/config.js → brand`.
